@@ -1,7 +1,13 @@
-package com.example.sping_portfolio.controllers;
+/* package com.example.sping_portfolio.controllers;
 
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+*/
+
+/* @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
 public class StudentInfo {
-    public static void main(String[] args){
+    public String StudentInfo {
+        @GetMapping("/StudentInfo")
 
         String name = "JDawg";
 
@@ -22,3 +28,4 @@ public class StudentInfo {
 
     }
 }
+*/

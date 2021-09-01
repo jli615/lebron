@@ -1,4 +1,4 @@
-package com.example.sping_portfolio.controllers;
+/* package com.example.sping_portfolio.controllers;
 
 public class gradeAverage {
     public static void main (String[] args) {
@@ -17,3 +17,4 @@ public class gradeAverage {
 
     }
     }
+*/
