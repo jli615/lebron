@@ -13,6 +13,7 @@ public class gradeAverage {
 
         double finalAvg = (gradeOneTwo * 2 + gradeThreeFour * 2 + gradeFive) / 5;
 
+        String averageGrade;
         System.out.println("The final average grade is " + averageGrade);
 
     }
