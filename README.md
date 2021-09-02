@@ -13,7 +13,8 @@ https://github.com/jli615/lebroncs/projects/1
 
 
 
-### Scrum Master: Justin Li / Scrum Members: Ryan Moghaddas, Rohan Koshy, Rohan Nallapati
+Scrum Master: Justin Li 
+Scrum Members: Ryan Moghaddas, Rohan Koshy, Rohan Nallapati
 
 
 
