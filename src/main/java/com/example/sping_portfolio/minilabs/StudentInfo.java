@@ -6,8 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
 public class StudentInfo {
-    public String StudentInfo {
-        @GetMapping("/StudentInfo")
+    public String StudentInfo; {
 
         String name = "JDawg";
 
