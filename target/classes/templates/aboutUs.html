@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html>
-<body>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
 
 <head><div layout:fragment="metadata" th:remove="tag">
     <title>About Us</title>
 </div></head>
 
-<video width="960" height="720" controls>
-    <source src="https://www.youtube.com/watch?v=_f6NBtONjfM" type="video/mp4">
-    <source src="https://www.youtube.com/watch?v=_f6NBtONjfM" type="video/ogg">
-    Your browser does not support the video tag.
-</video>
+<body><div layout:fragment="content" th:remove="tag">
+    <!-- Start of body content specific to page -->
+    <div id="spring_intro" class="articles" style="margin: 30px;">
+        <h1><strong><center>About Us</center></strong></h1>
+    </div>
+    <!-- End of body content specific to page -->
+</div></body>
 
-</body>
 </html>
