@@ -1,4 +1,4 @@
-package com.example.sping_portfolio.minilabs;
+package com.example.sping_portfolio.controllers;
 
 import org.springframework.ui.Model;
 import org.springframework.stereotype.Controller;
