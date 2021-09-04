@@ -16,9 +16,10 @@ Here is an example of one of our theme pages created by Ryan. This is going to b
 https://github.com/jli615/lebroncs/projects/1
 
 ## Project Idea
-Our website will be a one-stop sports page that will follow the Del Norte sports teams. We will provide up to data information about the schedules, scores, stats, rosters, and interviews of many Varsity and Junior Varsity sports teams.
+Our website will be a one-stop sports page that will follow the Del Norte sports teams. We will provide up to data information about the schedules, scores, stats, rosters, and interviews of many Varsity and Junior Varsity sports teams. Our purpose for this website is to provide a spot where Del Norte Student Athletes can come and see all information about their team. 
 
-## Visual thoughts
+We will be building this website through Spring and Thymeleaf. We will also be using HTML, CSS, and Java to make our website. The main goal will be to build a database with all the Del Norte sports teams information (stats, schedule, scores, rosters, etc.) Then we will be able to pull data to present in our website!
+
 
 
 
