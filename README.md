@@ -4,7 +4,7 @@
 [Link to Self Grading + Justifications](https://docs.google.com/document/d/1GNQTQCgtMbw8g8jqJJVRfxij7Y9odWbcjubHA96ehMY/edit)
 
 #### Minilab Tangibles 
-(![image](https://user-images.githubusercontent.com/72889343/132081246-c8bb3731-eee6-4cc2-805b-ab2e2a2039d3.png)
+![image](https://user-images.githubusercontent.com/72889343/132081246-c8bb3731-eee6-4cc2-805b-ab2e2a2039d3.png)
 This is an example of one of our minilabs, specifically Ryan's. You can see that there is an image for cheese, and they are all contained in a drop down in the nav bar. 
 Front End: [html](https://github.com/jli615/lebroncs/blob/abd9f32256876c28988914f96ba2c9f22f1e19f1/src/main/resources/templates/bgr.html#L1-L50)
 Back End: [java](https://github.com/jli615/lebroncs/blob/abd9f32256876c28988914f96ba2c9f22f1e19f1/src/main/java/com/example/sping_portfolio/minilabs/birdsGreetRyan.java#L1-L17)
