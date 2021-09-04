@@ -31,3 +31,6 @@
 /target/classes/templates/aboutUsKoshy.html
 /target/classes/com/example/sping_portfolio/controllers/aboutUsRyan.class
 /target/classes/templates/aboutUsRyan.html
+/target/classes/com/example/sping_portfolio/controllers/aboutUs.class
+/target/classes/com/example/sping_portfolio/controllers/football.class
+/target/classes/com/example/sping_portfolio/controllers/soccer.class
