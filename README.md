@@ -2,9 +2,9 @@
 
 ## PBL 1-2, plus Unit 2
 ### [Link to Self Grading + Justifications](https://docs.google.com/document/d/1GNQTQCgtMbw8g8jqJJVRfxij7Y9odWbcjubHA96ehMY/edit)
+This has all of our self grades and includes tangibles that serve as justification. 
 
-### Link to Scrum Board
-[Scrum Board](https://github.com/jli615/lebroncs/projects/1)</br>
+### [Link to Scrum Board](https://github.com/jli615/lebroncs/projects/1)
 Here you can find our plans in the backlog and what needs to be reviewed for grading in the review column. 
 
 ### Project Idea
