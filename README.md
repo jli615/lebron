@@ -30,9 +30,9 @@ This is what our nav bar looks like at the moment, all of them are drop downs th
 ![image](https://user-images.githubusercontent.com/72889343/132117156-0f60a091-656d-4275-9697-0263e887557e.png)
 Added by Rohan N. Allows user to navigate through each of the contributors jouranls that are embedded on their respective pages
 
-### Genisis Video 
+### Genesis Video 
 ![image](https://user-images.githubusercontent.com/72889343/132117779-26fc479b-792e-4f08-ba87-b7b8c96e0ce6.png)
-Created and added onto website by Rohan N. You can find this video in the nav bar section called "About Us", named Genisis U2. 
+Created and added onto website by Rohan N. You can find this video in the nav bar section called "About Us", named Genesis U2. 
 
 **_end PBL 1-2, plus Unit 2_**
 
