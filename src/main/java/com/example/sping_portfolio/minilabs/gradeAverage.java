@@ -2,7 +2,7 @@ package com.example.sping_portfolio.minilabs;
 
 public class gradeAverage {
     public static void main (String[] args) {
-        int gradeOne = 97;
+        int gradeOne = 94;
         int gradeTwo = 92;
         int gradeThree = 83;
         int gradeFour = 91;

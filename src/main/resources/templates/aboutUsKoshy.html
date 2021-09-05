@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<!-- This page is illustrative and contains ideas about HTML formatting -->
+<!DOCTYPE HTML>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
 <html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
       layout:decorate="~{layout}" lang="en">
 
@@ -6,15 +8,14 @@
     <title>About Koshy</title>
 </div></head>
 
+<!-- layout::fragment="content" is heart of ThymeLeaf layout -->
 <body><div layout:fragment="content" th:remove="tag">
     <!-- Start of body content specific to page -->
-    <div id="spring_intro" class="articles" style="margin: 30px;">
-        <h1><strong><center>About Us</center></strong></h1>
-    </div>
-    <center><iframe width="560" height="315"
-                    src="https://www.youtube.com/embed/EZgkFSVigpk?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-    </iframe></center>
+    <div id="football" class="articles" style="margin: 30px;">
+        <h1><strong><center>Rohan Koshy About Us Page</center></strong></h1>
+        <br><h3><strong><center>I am a senior at Del Norte and currently taking AP Computer Science A. My hobbies include playing soccer and cyber-security. I've understood, from playing soccer for Del Norte, that there is not a good website for high school athletes to track their statistics if they don't play football. Therefore, our website purpose it to accuratly track varsity sports statistics for Del Norte. </center></strong></h3></br>
 
+    </div>
     <!-- End of body content specific to page -->
 </div></body>
 
