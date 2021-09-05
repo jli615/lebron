@@ -23,7 +23,7 @@ Back End: [java](https://github.com/jli615/lebroncs/blob/abd9f32256876c28988914f
 Here is an example of one of our theme pages created by Ryan. This is going to be made into a statistics page for the DNHS soccer players. 
 
 #### Navigation Tangibles 
-![image](https://user-images.githubusercontent.com/72889343/132117118-1f99a26b-9441-4872-944b-25d475581ac8.png)
+![image](https://user-images.githubusercontent.com/72889343/132117118-1f99a26b-9441-4872-944b-25d475581ac8.png)</br>
 This is what our nav bar looks like at the moment, all of them are drop downs that link to our works as well as the theme pages in "sports"
 
 #### Journal Feature 
@@ -34,7 +34,7 @@ Added by Rohan N. Allows user to navigate through each of the contributors joura
 ![image](https://user-images.githubusercontent.com/72889343/132117779-26fc479b-792e-4f08-ba87-b7b8c96e0ce6.png)
 Created and added onto website by Rohan N. You can find this video in the nav bar section called "About Us", named Genisis U2. 
 
-**end PBL 1-2, plus Unit 2**
+**_end PBL 1-2, plus Unit 2_**
 
 ### Scrum Master: Justin Li 
 ### Scrum Members: Ryan Moghaddas, Rohan Koshy, Rohan Nallapati
