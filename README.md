@@ -4,7 +4,7 @@
 ### [Link to Self Grading + Justifications](https://docs.google.com/document/d/1GNQTQCgtMbw8g8jqJJVRfxij7Y9odWbcjubHA96ehMY/edit)
 
 ### Link to Scrum Board
-https://github.com/jli615/lebroncs/projects/1
+[Scrum Board](https://github.com/jli615/lebroncs/projects/1)</br>
 Here you can find our plans in the backlog and what needs to be reviewed for grading in the review column. 
 
 ### Project Idea
