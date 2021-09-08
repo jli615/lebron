@@ -1,4 +1,4 @@
-package com.example.sping_portfolio.minilabs.MiniLab2;
+package com.example.sping_portfolio.controllers;
 
 public class Basketball {
     private int age;
@@ -23,6 +23,13 @@ public void verbalTalk()
                 System.out.println(name + " basketball player.");
                 System.out.println("Stay in high school.");
             }
+    }
+    public static void main(String[] args)
+    {
+        Basketball newplayerOne = new Basketball(27,62.5,"Dante");
+        Basketball newplayerTwo = new Basketball(17,60.5,"Tyrone");
+        newplayerOne.verbalTalk();
+        newplayerTwo.verbalTalk();
     }
 
 }
