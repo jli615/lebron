@@ -1,6 +1,6 @@
 # Team Lebron READ.ME
 
-## Name 1, GitHub ID, tasks, scrum board, commits, profile
+### Name 1, GitHub ID, tasks, scrum board, commits, profile
 
 ## PBL 1-2, plus Unit 2
 ### [Link to Self Grading + Justifications](https://docs.google.com/document/d/1GNQTQCgtMbw8g8jqJJVRfxij7Y9odWbcjubHA96ehMY/edit)
