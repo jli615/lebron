@@ -1,6 +1,9 @@
 # Team Lebron READ.ME
 
-### Name 1, GitHub ID, tasks, scrum board, commits, profile
+### Ryan Moghaddas, ryanmgds, tasks, [scrum board](https://github.com/jli615/lebroncs/projects/1), [committs](https://github.com/jli615/lebroncs/graphs/contributors), [profile](https://github.com/ryanmgds)
+### Rohan Koshy
+### Justin Li
+### Rohan Nallapati
 
 ## PBL 1-2, plus Unit 2
 ### [Link to Self Grading + Justifications](https://docs.google.com/document/d/1GNQTQCgtMbw8g8jqJJVRfxij7Y9odWbcjubHA96ehMY/edit)
