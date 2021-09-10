@@ -2,7 +2,7 @@
 
 ### Ryan Moghaddas, ryanmgds, tasks, [scrum board](https://github.com/jli615/lebroncs/projects/1), [committs](https://github.com/jli615/lebroncs/graphs/contributors), [profile](https://github.com/ryanmgds)
 ### Rohan Koshy
-### Justin Li
+### Justin Li, jli615
 ### Rohan Nallapati
 
 ## PBL 1-2, plus Unit 2
