@@ -1,6 +1,6 @@
 # Team Lebron READ.ME
 
-### Ryan Moghaddas, ryanmgds, tasks, [scrum board](https://github.com/jli615/lebroncs/projects/1), [committs](https://github.com/jli615/lebroncs/graphs/contributors), [profile](https://github.com/ryanmgds)
+### Ryan Moghaddas, ryanmgds, tasks, [scrum board](https://github.com/jli615/lebroncs/projects/1#card-68301148), [committs](https://github.com/jli615/lebroncs/graphs/contributors), [profile](https://github.com/ryanmgds)
 ### Rohan Koshy
 ### Justin Li, jli615
 ### Rohan Nallapati
