@@ -1,7 +1,7 @@
 # Team Lebron READ.ME
 
 ### Ryan Moghaddas, ryanmgds, [tasks](https://github.com/jli615/lebroncs/issues?q=assignee%3Aryanmgds+), [scrum board](https://github.com/jli615/lebroncs/projects/1?card_filter_query=assignee%3Aryanmgds), [commits](https://github.com/jli615/lebroncs/graphs/contributors), [profile](https://github.com/ryanmgds)
-### Rohan Koshy, RohanKoshy, tasks, [scrumboard](https://github.com/jli615/lebroncs/projects/1?card_filter_query=assignee%3Arohankoshy#card-68534854), [commits](https://github.com/jli615/lebroncs/graphs/contributors), [profile](https://github.com/RohanKoshy)
+### Rohan Koshy, RohanKoshy, [tasks](https://github.com/jli615/lebroncs/issues?q=assignee%3Arohankoshy), [scrumboard](https://github.com/jli615/lebroncs/projects/1?card_filter_query=assignee%3Arohankoshy#card-68534854), [commits](https://github.com/jli615/lebroncs/graphs/contributors), [profile](https://github.com/RohanKoshy)
 ### Justin Li, jli615, [tasks](https://github.com/jli615/lebroncs/issues?q=assignee%3Ajli615), [scrum board](https://github.com/jli615/lebroncs/projects/1?card_filter_query=assignee%3Ajli615), [commits](https://github.com/jli615/lebroncs/graphs/contributors), [profile](https://github.com/jli615)
 ### Rohan Nallapati, macddmac, [tasks](https://github.com/jli615/lebroncs/issues?q=assignee%3Amacddmac), [scrum board](https://github.com/jli615/lebroncs/projects/1?card_filter_query=assignee%3Amacddmac), [commits](https://github.com/jli615/lebroncs/graphs/contributors), [profile](https://github.com/macddmac)
 
