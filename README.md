@@ -1,8 +1,9 @@
 # Team Lebron READ.ME
-
-### Ryan Moghaddas, ryanmgds, tasks, [scrum board](https://github.com/jli615/lebroncs/issues/9), [commits](https://github.com/jli615/lebroncs/graphs/contributors), [profile](https://github.com/ryanmgds)
+ ## POP QUIZ
+Team Lebron, [Scrum Board](https://github.com/jli615/lebroncs/projects/1), [Github Repo Contributers](https://github.com/jli615/lebroncs/graphs/contributors)
+### Ryan Moghaddas, ryanmgds, tasks, [scrum board](https://github.com/jli615/lebroncs/projects/1?card_filter_query=assignee%3A+assignee%3Aryanmgds), [committs](https://github.com/jli615/lebroncs/graphs/contributors), [profile](https://github.com/ryanmgds)
 ### Rohan Koshy
-### Justin Li, jli615, tasks, [scrum board](https://github.com/jli615/lebroncs/projects/1?card_filter_query=assignee%3Ajli615), [commits](https://github.com/jli615/lebroncs/graphs/contributors), [profile](https://github.com/jli615)
+### Justin Li, jli615
 ### Rohan Nallapati
 
 ## PBL 1-2, plus Unit 2
