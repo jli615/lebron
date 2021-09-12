@@ -1,10 +1,4 @@
 # Team Lebron READ.ME
-## _Pop Quiz 9/10/21_
-### Team Lebron, [Scrum Board](https://github.com/jli615/lebroncs/projects/1), [GitHub repo contributors](https://github.com/jli615/lebroncs/graphs/contributors)
-### Ryan Moghaddas, ryanmgds, [tasks](https://github.com/jli615/lebroncs/issues?q=assignee%3Aryanmgds+), [scrum board](https://github.com/jli615/lebroncs/projects/1?card_filter_query=assignee%3Aryanmgds), [commits](https://github.com/jli615/lebroncs/commits?author=ryanmgds), [profile](https://github.com/ryanmgds)
-### Rohan Koshy, RohanKoshy, [tasks](https://github.com/jli615/lebroncs/issues?q=assignee%3Arohankoshy), [scrumboard](https://github.com/jli615/lebroncs/projects/1?card_filter_query=assignee%3Arohankoshy#card-68534854), [commits](https://github.com/jli615/lebroncs/commits?author=RohanKoshy), [profile](https://github.com/RohanKoshy)
-### Justin Li, jli615, [tasks](https://github.com/jli615/lebroncs/issues?q=assignee%3Ajli615), [scrum board](https://github.com/jli615/lebroncs/projects/1?card_filter_query=assignee%3Ajli615), [commits](https://github.com/jli615/lebroncs/commits?author=jli615), [profile](https://github.com/jli615)
-### Rohan Nallapati, macddmac, [tasks](https://github.com/jli615/lebroncs/issues?q=assignee%3Amacddmac), [scrum board](https://github.com/jli615/lebroncs/projects/1?card_filter_query=assignee%3Amacddmac), [commits](https://github.com/jli615/lebroncs/commits?author=macddmac), [profile](https://github.com/macddmac)
 
 ## Self Grading and Progress Checks
 ### [9/6 - 9/10: Prototype Check plus Unit 3 Self Grading](https://docs.google.com/document/d/1rrbXWPhyk0_q987G5ZTS9kgEZoZc5dmCgijm5w9CqNc/edit?usp=sharing)
@@ -19,29 +13,13 @@ Our website will be a one-stop sports page that will follow the Del Norte sports
 
 We will be building this website through Spring and Thymeleaf. We will also be using HTML, CSS, and Java to make our website. The main goal will be to build a database with all the Del Norte sports teams information (stats, schedule, scores, rosters, etc.) Then we will be able to pull data to present in our website!
 
-### Minilab Tangibles 
-![image](https://user-images.githubusercontent.com/72889343/132081246-c8bb3731-eee6-4cc2-805b-ab2e2a2039d3.png)
-This is an example of one of our minilabs, specifically Ryan's. You can see that there is an image for cheese, and they are all contained in a drop down in the nav bar. 
-Front End: [html](https://github.com/jli615/lebroncs/blob/abd9f32256876c28988914f96ba2c9f22f1e19f1/src/main/resources/templates/bgr.html#L1-L50)
-Back End: [java](https://github.com/jli615/lebroncs/blob/abd9f32256876c28988914f96ba2c9f22f1e19f1/src/main/java/com/example/sping_portfolio/minilabs/birdsGreetRyan.java#L1-L17)
+## _Pop Quiz 9/10/21_
+### Team Lebron, [Scrum Board](https://github.com/jli615/lebroncs/projects/1), [GitHub repo contributors](https://github.com/jli615/lebroncs/graphs/contributors)
+### Ryan Moghaddas, ryanmgds, [tasks](https://github.com/jli615/lebroncs/issues?q=assignee%3Aryanmgds+), [scrum board](https://github.com/jli615/lebroncs/projects/1?card_filter_query=assignee%3Aryanmgds), [commits](https://github.com/jli615/lebroncs/commits?author=ryanmgds), [profile](https://github.com/ryanmgds)
+### Rohan Koshy, RohanKoshy, [tasks](https://github.com/jli615/lebroncs/issues?q=assignee%3Arohankoshy), [scrumboard](https://github.com/jli615/lebroncs/projects/1?card_filter_query=assignee%3Arohankoshy#card-68534854), [commits](https://github.com/jli615/lebroncs/commits?author=RohanKoshy), [profile](https://github.com/RohanKoshy)
+### Justin Li, jli615, [tasks](https://github.com/jli615/lebroncs/issues?q=assignee%3Ajli615), [scrum board](https://github.com/jli615/lebroncs/projects/1?card_filter_query=assignee%3Ajli615), [commits](https://github.com/jli615/lebroncs/commits?author=jli615), [profile](https://github.com/jli615)
+### Rohan Nallapati, macddmac, [tasks](https://github.com/jli615/lebroncs/issues?q=assignee%3Amacddmac), [scrum board](https://github.com/jli615/lebroncs/projects/1?card_filter_query=assignee%3Amacddmac), [commits](https://github.com/jli615/lebroncs/commits?author=macddmac), [profile](https://github.com/macddmac)
 
-### Theme Page Tangibles
-![image](https://user-images.githubusercontent.com/72889343/132082022-0a80fcb7-bf95-4dae-aff0-8b6921b32d4e.png)
-Here is an example of one of our theme pages created by Ryan. This is going to be made into a statistics page for the DNHS soccer players. 
-
-### Navigation Tangibles 
-![image](https://user-images.githubusercontent.com/72889343/132117118-1f99a26b-9441-4872-944b-25d475581ac8.png)</br>
-This is what our nav bar looks like at the moment, all of them are drop downs that link to our works as well as the theme pages in "sports"
-
-### Journal Feature 
-![image](https://user-images.githubusercontent.com/72889343/132117156-0f60a091-656d-4275-9697-0263e887557e.png)
-Added by Rohan N. Allows user to navigate through each of the contributors jouranls that are embedded on their respective pages
-
-### Genesis Video 
-![image](https://user-images.githubusercontent.com/72889343/132118009-bd90b987-cbf2-4561-8e46-77b5c82b765f.png)
-Created and added onto website by Rohan N. You can find this video in the nav bar section called "About Us", named Genesis U2. 
-
-**_end PBL 1-2, plus Unit 2_**
 
 ### Scrum Master: Justin Li 
 ### Scrum Members: Ryan Moghaddas, Rohan Koshy, Rohan Nallapati
