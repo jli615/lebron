@@ -14,4 +14,5 @@ public class binaryLightbulb {
         model.addAttribute("bits", bits); // MODEL is passed to html
         return "binaryLightbulb"; // returns HTML VIEW (greeting)
     }
+    
 }

@@ -5,17 +5,54 @@
       layout:decorate="~{layout}" lang="en">
 
 <head><div layout:fragment="metadata" th:remove="tag">
-    <title>Basketball Stats</title>
+    <title>Baseball Stats</title>
 </div></head>
 
 <!-- layout::fragment="content" is heart of ThymeLeaf layout -->
-<body style="background: url() no-repeat; background-size:100%"><div layout:fragment="content" th:remove="tag">
+<body  style="background: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fgraphicriver.img.customer.envatousercontent.com%2Ffiles%2F46062429%2Fwooden%2Bbasketball%2Bcourt%2Bprev.jpg%3Fauto%3Dcompress%252Cformat%26fit%3Dcrop%26crop%3Dtop%26w%3D590%26h%3D590%26s%3D1dcc9d63c8d4a90793340a77f0808d21&imgrefurl=https%3A%2F%2Fgraphicriver.net%2Fbasketball%2Bcourt-in-graphics&tbnid=5bAd6Vpkt7EUjM&vet=12ahUKEwjIt6bR6PvyAhVeGzQIHafDAq0QMyglegUIARDGAg..i&docid=4H3g33cXNolAPM&w=590&h=590&itg=1&q=basketball%20court%20background&ved=2ahUKEwjIt6bR6PvyAhVeGzQIHafDAq0QMyglegUIARDGAg) no-repeat; background-size:100%"><div layout:fragment="content" th:remove="tag">
     <!-- Start of body content specific to page -->
     <div id="football" class="articles" style="margin: 30px;">
         <h1 style="color:black"><strong><center>DNHS Basketball Page!</center></strong></h1>
-        <br><h3 style="color:black"><strong><center>LEBRON JAMES!!!! </center></strong></h3></br>
+        <!-- End of body content specific to page -->
     </div>
-    <!-- End of body content specific to page -->
-</div></body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+    <link rel="stylesheet" href="https://stack.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="
+    sha384-ggCyR0iXCbMQv3Xipma34MB+dH/1fQ7*4/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <table class="table table-striped">
+        <tr class="bg-info">
+            <th>Name</th>
+            <th>Age</th>
+            <th>gamesPlayed</th>
+            <th>pointsScored</th>
+            <th>Number</th>
+        </tr>
+        <tbody id="myTable">
+        </tbody>
+    </table>
+    <script>
+        var myArray = [
+            {name:'Benji', age: 17, gamesPlayed: 15, pointsScored: 31, Number: 17},
+            {name:'Nico', age: 19, gamesPlayed: 13, pointsScored: 27, Number: 44},
+            {name:'Jackson', age: 16, gamesPlayed: 16, pointsScored: 22, Number: 19},
+        ]
+
+        buildTable(myArray)
+
+        function buildTable(data){
+            var table = document.getElementById('myTable')
+            for (var i = 0;i < data.length; i++) {
+                var row = `<tr>
+                <td>${data[i].name}</td>
+                <td>${data[i].age}</td>
+                <td>${data[i].gamesPlayed}</td>
+                <td>${data[i].pointsScored}</td>
+                <td>${data[i].Number}</td>
+            </tr>`
+                table.innerHTML += row
+            }
+        }
+    </script>
+</div>
+</body>
 </html>
