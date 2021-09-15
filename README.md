@@ -6,6 +6,7 @@
 ### Justin Li (jli615), [tasks](https://github.com/jli615/lebroncs/issues?q=assignee%3Ajli615), [scrum board](https://github.com/jli615/lebroncs/projects/1?card_filter_query=assignee%3Ajli615), [commits](https://github.com/jli615/lebroncs/commits?author=jli615), [profile](https://github.com/jli615)
 ### Rohan Nallapati (macddmac), [tasks](https://github.com/jli615/lebroncs/issues?q=assignee%3Amacddmac), [scrum board](https://github.com/jli615/lebroncs/projects/1?card_filter_query=assignee%3Amacddmac), [commits](https://github.com/jli615/lebroncs/commits?author=macddmac), [profile](https://github.com/macddmac)
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # [Team and Scrum Master Planning by Wednesday link to ticket](https://github.com/jli615/lebroncs/issues/19)
 
