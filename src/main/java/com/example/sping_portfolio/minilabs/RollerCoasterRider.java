@@ -56,4 +56,14 @@ c. You cannot ride this rollercoaster because you do not match the weight and he
 
 d. You cannot ride the roller coaster because you are too short
    You cannot ride this rollercoaster because you do not match the weight requirement.
+
+Which of these outputs true, if a is true and b is false?
+
+a. ! ( a && b )
+
+b. ( ! a || ! b )
+
+c. ( a && ! b )
+
+d. ! ( a && ! b )
  */
