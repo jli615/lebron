@@ -7,7 +7,7 @@
 ### Rohan Nallapati (macddmac), [tasks](https://github.com/jli615/lebroncs/issues?q=assignee%3Amacddmac), [scrum board](https://github.com/jli615/lebroncs/projects/1?card_filter_query=assignee%3Amacddmac), [commits](https://github.com/jli615/lebroncs/commits?author=macddmac), [profile](https://github.com/macddmac)
 
 
-# [Team and Scrum Master Planning by Wednesday link to ticket] (https://github.com/jli615/lebroncs/issues/19
+# [Team and Scrum Master Planning by Wednesday link to ticket](https://github.com/jli615/lebroncs/issues/19)
 
 ## Self Grading and Progress Checks
 ### [9/6 - 9/10: Prototype Check plus Unit 3 Self Grading](https://docs.google.com/document/d/1rrbXWPhyk0_q987G5ZTS9kgEZoZc5dmCgijm5w9CqNc/edit?usp=sharing)
