@@ -26,25 +26,26 @@
     <div class="product" style="margin-top: 2%;">
         <h1 style="color:white">Rohan BIRDS</h1>
     </div>
+    <div layout:fragment="script" th:remove="tag">
+        <script src="/static/vanta/three.r119.min.js" th:src="@{/vanta/three.r119.min.js}"></script>
+        <script src="/static/vanta/vanta.birds.min.js" th:src="@{/vanta/vanta.birds.min.js}"></script>
+        <script>
+            VANTA.BIRDS({
+                el: "body",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00
+            })
+        </script>
+    </div>
 </div>
 </div>
 </body>
 
-<div layout:fragment="script" th:remove="tag">
-    <script src="/static/vanta/three.r119.min.js" th:src="@{/vanta/three.r119.min.js}"></script>
-    <script src="/static/vanta/vanta.birds.min.js" th:src="@{/vanta/vanta.birds.min.js}"></script>
-    <script>
-        VANTA.BIRDS({
-            el: "body",
-            mouseControls: true,
-            touchControls: true,
-            gyroControls: false,
-            minHeight: 200.00,
-            minWidth: 200.00,
-            scale: 1.00,
-            scaleMobile: 1.00
-        })
-    </script>
-</div>
+
 
 </html>
