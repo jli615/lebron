@@ -5,9 +5,8 @@ package com.example.sping_portfolio.minilabs;
 A ride is opening in Six Flags. Since the ride has a steep drop at the end, it has a weight limit of atleast 130 pounds and
 height limit at least 6 foot for the passengers safety. The following code is meant to turn down anyone who is under or equal to
 six foot and 130 pounds.
-
-
  */
+
 public class RollerCoasterRider {
 
 
