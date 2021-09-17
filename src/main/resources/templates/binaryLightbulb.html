@@ -11,7 +11,7 @@
 <!-- Hack 6: fix all warnings -->
 
 <!-- <head> -->
-<div layout:fragment="metadata" th:with="bits=4" th:remove="tag">
+<div layout:fragment="metadata" th:with="bits=8" th:remove="tag">
   <title>Binary page</title>
   <script>
     const BITS = [[${bits}]];
@@ -29,6 +29,7 @@
       }
       return bits;
     }
+
     // setter for DOM values
     function setConversions(binary) {
       document.getElementById('binary').innerHTML = binary;
@@ -38,6 +39,8 @@
       document.getElementById('hexadecimal').innerHTML = parseInt(binary, 2).toString(16);
       // Decimal conversion
       document.getElementById('decimal').innerHTML = parseInt(binary, 2).toString();
+      // ASCII conversion
+      document.getElementById('ASCII').innerHTML = String.fromCharCode(parseInt(binary, 2));
     }
     //
     function decimal_2_base(decimal, base) {
@@ -104,12 +107,13 @@
         }
       }
     }
+
   </script>
 </div>
 <!-- </head> -->
 
 <!-- <body> -->
-<div layout:fragment="content" th:with="bits=4" th:remove="tag">
+<div layout:fragment="content" th:with="bits=8" th:remove="tag">
   <h1 class="text-center">Binary Math with Conversions</h1>
   <div class="container">
     <div class="row justify-content-md-center">
@@ -122,6 +126,7 @@
             <th>Octal</th>
             <th>Hexadecimal</th>
             <th>Decimal</th>
+            <th>ASCII</th>
             <th>Minus</th>
           </tr>
           <tr>
@@ -130,6 +135,7 @@
             <td id="octal">0</td>
             <td id="hexadecimal">0</td>
             <td id="decimal">0</td>
+            <td id="ASCII">0</td>
             <td><button type="button" id="sub1" onclick="add(-1)">-1</button></td>
           </tr>
         </table>
