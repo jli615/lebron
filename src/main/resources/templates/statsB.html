@@ -1,0 +1,58 @@
+<!-- This page is illustrative and contains ideas about HTML formatting -->
+<!DOCTYPE HTML>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<head><div layout:fragment="metadata" th:remove="tag">
+    <title>Baseball Stats</title>
+</div></head>
+
+<!-- layout::fragment="content" is heart of ThymeLeaf layout -->
+<body  style="background: url(https://media.istockphoto.com/photos/basketball-ball-on-black-background-picture-id1202801765?b=1&k=20&m=1202801765&s=170667a&w=0&h=iXmtT1hFuL_7jm-O0YKbbFpTLa8Uq0UX-fhvyfh52uA=) no-repeat; background-size:100%"><div layout:fragment="content" th:remove="tag">
+    <!-- Start of body content specific to page -->
+    <div id="football" class="articles" style="margin: 30px;">
+        <h1 style="color:white"><strong><center>DNHS Basketball Page!</center></strong></h1>
+        <!-- End of body content specific to page -->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://stack.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="
+    sha384-ggCyR0iXCbMQv3Xipma34MB+dH/1fQ7*4/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <table class="table table-dark">
+        <tr class="bg-info">
+            <th>Name</th>
+            <th>Age</th>
+            <th>gamesPlayed</th>
+            <th>pointsScored</th>
+            <th>Number</th>
+        </tr>
+        <tbody id="myTable">
+        </tbody>
+    </table>
+    <script>
+        var myArray = [
+            {name:'Benji', age: 17, gamesPlayed: 15, pointsScored: 31, Number: 17},
+            {name:'Nico', age: 19, gamesPlayed: 13, pointsScored: 27, Number: 44},
+            {name:'Jackson', age: 16, gamesPlayed: 16, pointsScored: 22, Number: 19},
+        ]
+
+        buildTable(myArray)
+
+        function buildTable(data){
+            var table = document.getElementById('myTable')
+            for (var i = 0;i < data.length; i++) {
+                var row = `<tr>
+                <td>${data[i].name}</td>
+                <td>${data[i].age}</td>
+                <td>${data[i].gamesPlayed}</td>
+                <td>${data[i].pointsScored}</td>
+                <td>${data[i].Number}</td>
+            </tr>`
+                table.innerHTML += row
+            }
+        }
+    </script>
+</div>
+</body>
+</html>
