@@ -1,6 +1,4 @@
-<!-- This page is illustrative and contains ideas about HTML formatting -->
-<!DOCTYPE HTML>
-<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<!DOCTYPE html>
 <html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
       layout:decorate="~{layout}" lang="en">
 
@@ -8,14 +6,26 @@
     <title>About Ryan</title>
 </div></head>
 
-<!-- layout::fragment="content" is heart of ThymeLeaf layout -->
 <body><div layout:fragment="content" th:remove="tag">
     <!-- Start of body content specific to page -->
-    <div id="football" class="articles" style="margin: 30px;">
-        <h1><strong><center>Hey hey hey! I'm Ryan Moghaddas! This is my aboutus page!</center></strong></h1>
-        <br><h3><strong><center>I love music and I have a messed up knee! I just recently got surgery on my ACL and meniscus, and it hurts a lot! I am the best coder in this class, and that is a fact. I love computer science and I love Mr. M's class! WOOOOOOOOO! </center></strong></h3></br>
-
+    <div id="spring_intro" class="articles" style="margin: 30px;">
+        <h1 style="font-family:'Courier New'"><strong><center>About RYAN :D</center></strong></h1>
     </div>
+    <h1><strong><center>Hey hey hey! I'm Ryan Moghaddas! This is my aboutus page!</center></strong></h1>
+    <br><h3><strong><center>I love music and I have a messed up knee! I just recently got surgery on my ACL and meniscus, and it hurts a lot! I am the best coder in this class, and that is a fact. I love computer science and I love Mr. M's class! WOOOOOOOOO!
+
+    <head><div layout:fragment="metadata" th:remove="tag">
+        <title>Rohan Journal</title>
+    </div></head>
+
+
+    <!-- Start of body content specific to page -->
+    <div id="spring_intro" class="articles" style="margin: 30px;">
+        <h1><strong><center>Ryan's Journal!</center></strong></h1>
+    </div>
+    <center><iframe width="1000" height="800" src="https://docs.google.com/document/d/e/2PACX-1vSMD1rEI0uyN5L-MuaKeX3c0Dh6UDkZd2OWR6bQYWc0qThmwP5z8h6QB3PZUmDDsTubh99m61a6v51Y/pub?embedded=true">
+    </iframe></center>
+
     <!-- End of body content specific to page -->
 </div></body>
 
