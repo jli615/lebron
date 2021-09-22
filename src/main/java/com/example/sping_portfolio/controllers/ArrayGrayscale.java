@@ -20,15 +20,15 @@ import java.util.List;
 public class ArrayGrayscale {
     @GetMapping("/image")
     public String image(Model model)  {
-        //String web_server = "http://localhost:8080/";
-        String web_server = "https://csa.nighthawkcodingsociety.com";
+        String web_server = "http://localhost:8080/";
+        //String web_server = "https://csa.nighthawkcodingsociety.com";
         List<ImageInfo> lii = new ArrayList<>();
 
         String file0 = "/images/lebron.png";
         lii.add(new ImageInfo(file0, web_server+file0, 12));
         lii.get(0).read_image();
 
-        String file1 = "/images/lebron james1.png";
+        String file1 = "/images/lebron.png";
         lii.add(new ImageInfo(file1, web_server+file1, 2));
         lii.get(1).read_image();
 
@@ -42,8 +42,8 @@ public class ArrayGrayscale {
 
     @GetMapping("/image/grayscale")
     public String image_grayscale(Model model) {
-        //String web_server = "http://localhost:8080/";
-        String web_server = "https://csa.nighthawkcodingsociety.com";
+        String web_server = "http://localhost:8080/";
+        //String web_server = "https://csa.nighthawkcodingsociety.com";
         List<ImageInfo> lii = new ArrayList<>();
 
         String file0 = "/images/lebron.png";
