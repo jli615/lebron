@@ -39,7 +39,7 @@ public class arithmeticSequence {
         }
 
         System.out.print("It took " + iter + " iterations of the while loop to reach " + total + ".");
-        System.out.print("");
+        System.out.print(" ");
 
     }
 
