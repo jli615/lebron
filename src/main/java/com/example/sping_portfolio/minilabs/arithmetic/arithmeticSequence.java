@@ -19,7 +19,7 @@ public class arithmeticSequence {
         arith.add(new arithmeticSequenceStream(nth));
         arith.add(new arithmeticSequenceWhile(nth));
 
-        return arith;
+        return arithmet;
     }
 
     // GET request,, parameters are passed within the URI
