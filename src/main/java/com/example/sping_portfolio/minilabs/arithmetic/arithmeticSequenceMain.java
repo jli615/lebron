@@ -1,6 +1,6 @@
-package com.nighthawk.csa.algorithm.fibonacciModel;
+package com.example.sping_portfolio.minilabs.arithmetic;
 
-import com.nighthawk.csa.consoleUI.ConsoleMethods;
+import com.example.sping_portfolio.minilabs.arithmetic;
 
 import java.time.Duration;
 import java.time.Instant;
@@ -27,7 +27,7 @@ public abstract class arithmeticSequenceMain {
      Zero parameter constructor uses Telescoping technique to allow setting of the required value nth
      @param: none
      */
-    public _Fibonacci() {
+    public arithmeticSequenceMain() {
         this( 20);
     }
 
@@ -35,7 +35,7 @@ public abstract class arithmeticSequenceMain {
      Construct the nth fibonacci number
      @param: nth number, the value is constrained to 92 because of overflow in a long
      */
-    public _Fibonacci(int nth) {
+    public arithmeticSequenceMain(int nth) {
         this.size = nth;
         this.list = new ArrayList<>();
         this.hashID = 0;
@@ -100,9 +100,9 @@ public abstract class arithmeticSequenceMain {
     Tester class method.  This calls "main" class of each of the extended classes in the package
      */
     public static void main(String[] args) {
-        FibFor.main(null);
-        FibRecurse.main(null);
-        FibStream.main(null);
-        FibWhile.main(null);
+        arithmeticSequenceFor.main(null);
+        arithmeticSequenceRecursion.main(null);
+        arithmeticSequenceStream.main(null);
+        arithmeticSequenceWhile.main(null);
     }
 }
