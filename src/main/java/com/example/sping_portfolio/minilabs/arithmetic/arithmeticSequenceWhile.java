@@ -1,4 +1,4 @@
-import com.example.sping_portfolio.minilabs.arithmetic.arithmeticSequenceMain;
+package com.example.sping_portfolio.minilabs.arithmetic;
 
 import java.util.Scanner;
 import org.springframework.ui.Model;

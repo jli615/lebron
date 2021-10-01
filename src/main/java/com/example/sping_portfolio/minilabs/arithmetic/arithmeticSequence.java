@@ -12,7 +12,7 @@ import java.util.List;
 public class arithmeticSequence {
 
     public List<arithmeticSequence> arithmet(int nth) {
-        //Fibonacci objects created with different initializers
+        //        //Fibonacci objects created with different initializers
         List<arithmeticSequenceMain> arith = new ArrayList<>();
         arith.add(new arithmeticSequenceFor(nth));
         arith.add(new arithmeticSequenceRecursion(nth));
