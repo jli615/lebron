@@ -13,7 +13,7 @@ public class arithmeticSequence {
 
     public List<arithmeticSequence> arithmet(int nth) {
         //Fibonacci objects created with different initializers
-        List<arithmeticSequence> arith = new ArrayList<>();
+        List<arithmeticSequenceMain> arith = new ArrayList<>();
         arith.add(new arithmeticSequenceFor(nth));
         arith.add(new arithmeticSequenceRecursion(nth));
         arith.add(new arithmeticSequenceStream(nth));

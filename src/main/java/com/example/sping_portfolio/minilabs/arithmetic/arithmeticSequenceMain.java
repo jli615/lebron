@@ -1,6 +1,5 @@
 package com.example.sping_portfolio.minilabs.arithmetic;
 
-import com.example.sping_portfolio.minilabs.arithmetic;
 
 import java.time.Duration;
 import java.time.Instant;
@@ -86,13 +85,13 @@ public abstract class arithmeticSequenceMain {
      Console/Terminal supported print method
      */
     public void print() {
-        ConsoleMethods.println("Init method = " + this.name);
-        ConsoleMethods.println("Init time = " + this.getTimeElapsed());
-        ConsoleMethods.println("Fibonacci Number " + this.size + " = " + this.getNth());
-        ConsoleMethods.println("Fibonacci List = " + this.getList());
-        ConsoleMethods.println("Fibonacci Hashmap = " + this.getHash());
+        System.out.println("Init method = " + this.name);
+        System.out.println("Init time = " + this.getTimeElapsed());
+        System.out.println("Fibonacci Number " + this.size + " = " + this.getNth());
+        System.out.println("Fibonacci List = " + this.getList());
+        System.out.println("Fibonacci Hashmap = " + this.getHash());
         for (int i=0 ; i<this.size; i++ ) {
-            ConsoleMethods.println("Fibonacci Sequence " + (i+1) + " = " + this.getNthSeq(i));
+            System.out.println("Fibonacci Sequence " + (i+1) + " = " + this.getNthSeq(i));
         }
     }
 
