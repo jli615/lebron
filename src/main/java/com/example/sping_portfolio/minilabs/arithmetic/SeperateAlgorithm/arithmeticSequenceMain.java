@@ -1,11 +1,11 @@
-package com.example.sping_portfolio.minilabs.arithmetic;
+package com.example.sping_portfolio.minilabs.arithmetic.SeperateAlgorithm;
 
 
 import java.time.Duration;
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.HashMap;
-
+import com.example.sping_portfolio.minilabs.consoleUI.consoleMethods;
 import lombok.Getter;
 
 /*
@@ -22,18 +22,11 @@ public abstract class arithmeticSequenceMain {
     ArrayList<Long> list;
     HashMap<Integer, Object> hash;
 
-    /*
-     Zero parameter constructor uses Telescoping technique to allow setting of the required value nth
-     @param: none
-     */
+
     public arithmeticSequenceMain() {
         this( 20);
     }
 
-    /*
-     Construct the nth fibonacci number
-     @param: nth number, the value is constrained to 92 because of overflow in a long
-     */
     public arithmeticSequenceMain(int nth) {
         this.size = nth;
         this.list = new ArrayList<>();
@@ -85,11 +78,11 @@ public abstract class arithmeticSequenceMain {
      Console/Terminal supported print method
      */
     public void print() {
-        System.out.println("Init method = " + this.name);
-        System.out.println("Init time = " + this.getTimeElapsed());
-        System.out.println("Fibonacci Number " + this.size + " = " + this.getNth());
-        System.out.println("Fibonacci List = " + this.getList());
-        System.out.println("Fibonacci Hashmap = " + this.getHash());
+        consoleMethods.println("Init method = " + this.name);
+        consoleMethods.println("Init time = " + this.getTimeElapsed());
+        consoleMethods.println("Arithmetic Number " + this.size + " = " + this.getNth());
+        consoleMethods.println("Arithmetic List = " + this.getList());
+        consoleMethods.println("Arithmetic Hashmap = " + this.getHash());
         for (int i=0 ; i<this.size; i++ ) {
             System.out.println("Fibonacci Sequence " + (i+1) + " = " + this.getNthSeq(i));
         }

@@ -1,5 +1,6 @@
 package com.example.sping_portfolio.minilabs.arithmetic;
 
+import com.example.sping_portfolio.minilabs.arithmetic.SeperateAlgorithm.*;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,15 +12,15 @@ import java.util.List;
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
 public class arithmeticSequence {
 
-    public List<arithmeticSequence> arithmet(int nth) {
+    public List<arithmeticSequenceMain> arithmet(int nth) {
         //        //Fibonacci objects created with different initializers
-        List<arithmeticSequenceMain> arith = new ArrayList<>();
-        arith.add(new arithmeticSequenceFor(nth));
-        arith.add(new arithmeticSequenceRecursion(nth));
-        arith.add(new arithmeticSequenceStream(nth));
-        arith.add(new arithmeticSequenceWhile(nth));
+        List<arithmeticSequenceMain> arithList = new ArrayList<>();
+        arithList.add(new arithmeticSequenceFor(nth));
+        arithList.add(new arithmeticSequenceRecursion(nth));
+        arithList.add(new arithmeticSequenceStream(nth));
+        arithList.add(new arithmeticSequenceWhile(nth));
 
-        return arithmet;
+        return arithList;
     }
 
     // GET request,, parameters are passed within the URI
@@ -29,7 +30,7 @@ public class arithmeticSequence {
         int nth = Integer.parseInt(arithm);
 
         //MODEL attributes are passed back html
-        model.addAttribute("arith", arithmet(nth));
+        model.addAttribute("arithList", arithmet(nth));
 
         return "algorithms"; //HTML render fibonacci results
 
@@ -39,8 +40,8 @@ public class arithmeticSequence {
     public static void main(String[] args) {
         int nth = 20; //!!!make dynamic using consoleUI inputInt!!! 92 is max for long
 
-        List<arithmeticSequence> arith = new arithmeticSequence().arithmet(nth);
-        for (arithmeticSequence Arithmetics : arith)
+        List<arithmeticSequenceMain> arith = new arithmeticSequence().arithmet(nth);
+        for (arithmeticSequenceMain Arithmetics : arith)
             Arithmetics.print();  //Console output fibonacci results
     }
 }

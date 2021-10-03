@@ -1,18 +1,18 @@
-package com.example.sping_portfolio.minilabs.arithmetic;
+package com.example.sping_portfolio.minilabs.arithmetic.SeperateAlgorithm;
 
-import java.util.Scanner;
-import org.springframework.ui.Model;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-@Controller
-public class arithmeticSequenceWhile extends arithmeticSequenceMain {
-    public arithmeticSequenceWhile() {
-        super();
-    }
-    public arithmeticSequenceWhile(int nth) {
+public class arithmeticSequenceRecursion extends arithmeticSequenceMain
+{
+  public arithmeticSequenceRecursion()
+  {
+      super();
+  }
+    public arithmeticSequenceRecursion(int nth) {
         super(nth);
     }
+
+    /*
+    Abstract Polymorphic "init()" method using Recursion
+    */
     @Override
     protected void init() {
         //setup for recursion
@@ -37,7 +37,7 @@ public class arithmeticSequenceWhile extends arithmeticSequenceMain {
     Class method "main" with purpose of testing FibRecurse
      */
     public static void main(String[] args) {
-        _Fibonacci fibonacci = new FibRecurse();  // "FibRecurse" is used as initializer for the "_Fibonacci fibonacci"  object
-        fibonacci.print();
+        arithmeticSequenceMain arith1 = new arithmeticSequenceRecursion();  // "FibRecurse" is used as initializer for the "_Fibonacci fibonacci"  object
+        arith1.print();
     }
 }
