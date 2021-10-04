@@ -18,17 +18,5 @@ public class arithFor extends parentArithmetic
         }
         return (art);
     }
-    public Duration arithmeticMethodtwo()
-    {
-        Instant start = Instant.now();
-        for(rotations=iter;rotations > 0; rotations--)
-        {
-            sran.add(k+5);
-            k+=5;
-        }
-        Instant end = Instant.now();
-        timeElapsed = Duration.between(start, end);
-        return (timeElapsed);
 
-    }
 }

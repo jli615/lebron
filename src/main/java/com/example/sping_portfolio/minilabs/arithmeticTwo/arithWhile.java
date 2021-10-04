@@ -5,6 +5,7 @@ import java.time.Instant;
 import java.util.ArrayList;
 
 public class arithWhile extends parentArithmetic{
+    private int l;
     public ArrayList<Integer> arithmeticMethodone()
     {
         int iteration = iter;
@@ -15,19 +16,5 @@ public class arithWhile extends parentArithmetic{
             iteration--;
         }
         return (art);
-    }
-    public Duration arithmeticMethodtwo()
-    {
-        Instant start = Instant.now();
-        int iterations = 5;
-        while(iterations > 0)
-        {
-            sran.add(k+5);
-            k+=5;
-            iterations--;
-        }
-        Instant end = Instant.now();
-        timeElapsed = Duration.between(start, end);
-        return (timeElapsed);
     }
 }
