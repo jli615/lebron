@@ -24,15 +24,15 @@ public class arithmeticSequence {
     }
 
     // GET request,, parameters are passed within the URI
-    @GetMapping("/ar")
-    public String ar(@RequestParam(name="arithm", required=false,  defaultValue="2") String arithm, Model model) {
+    @GetMapping("/algorithms")
+    public String algorithms(@RequestParam(name="arithm", required=false,  defaultValue="2") String arithm, Model model) {
         //nth is fibonacci request
         int nth = Integer.parseInt(arithm);
 
         //MODEL attributes are passed back html
         model.addAttribute("arithList", arithmet(nth));
 
-        return "algorithms/ar"; //HTML render fibonacci results
+        return "algorithms"; //HTML render fibonacci results
 
     }
 

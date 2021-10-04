@@ -42,10 +42,10 @@
                         <th scope="col">List</th>
                     </tr>
                     <tr th:each="ar : ${arithList}">
-                        <td th:text="${ar.getName()}"></td>
-                        <td th:text="${ar.getTimeElapsed()}"></td>
-                        <td th:text="${ar.getNth()}"></td>
-                        <td th:text="${ar.getList()}"></td>
+                        <td th:text="${algorithms.getName()}"></td>
+                        <td th:text="${algorithms.getTimeElapsed()}"></td>
+                        <td th:text="${algorithms.getNth()}"></td>
+                        <td th:text="${algorithms.getList()}"></td>
                     </tr>
                 </table>
             </div>
