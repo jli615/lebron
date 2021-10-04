@@ -9,13 +9,16 @@ import java.time.Instant;
 public abstract class parentArithmetic
 {
     int rotations;
+    static int iter;
+    int z =0;
+    int k =0;
     Duration timeElapsed;
     static boolean forr=false;
     static boolean stream=false;
     static boolean whilee=false;
     static boolean recurse=false;
     ArrayList<Integer> art = new ArrayList<Integer>();
-    int x = 0;
+    ArrayList<Integer> sran = new ArrayList<Integer>();
     public abstract ArrayList<Integer> arithmeticMethodone();
     public abstract Duration arithmeticMethodtwo();
     public void print() {

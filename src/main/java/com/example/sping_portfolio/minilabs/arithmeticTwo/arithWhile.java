@@ -7,22 +7,22 @@ import java.util.ArrayList;
 public class arithWhile extends parentArithmetic{
     public ArrayList<Integer> arithmeticMethodone()
     {
-        int iterations = 5;
-        while(iterations > 0)
+        int iteration = iter;
+        while(iteration > 0)
         {
-            art.add(x+5);
-            x+=5;
-            iterations--;
+            art.add(z+5);
+            z+=5;
+            iteration--;
         }
         return (art);
     }
     public Duration arithmeticMethodtwo()
     {
         Instant start = Instant.now();
-        for(rotations=5;rotations > 0; rotations--)
+        for(rotations=iter;rotations > 0; rotations--)
         {
-            art.add(x+5);
-            x+=5;
+            sran.add(k+5);
+            k+=5;
         }
         Instant end = Instant.now();
         timeElapsed = Duration.between(start, end);
