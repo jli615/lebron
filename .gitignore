@@ -119,3 +119,9 @@
 /target/classes/com/example/sping_portfolio/minilabs/geometric/parentGeo.class
 /target/classes/templates/factorial.html
 /target/classes/com/example/sping_portfolio/controllers/factorialPage.class
+/target/classes/com/example/sping_portfolio/minilabs/arithmeticsub/arithmeticsubController.class
+/target/classes/com/example/sping_portfolio/minilabs/arithmeticsub/parentSub.class
+/target/classes/com/example/sping_portfolio/minilabs/arithmeticsub/subFor.class
+/target/classes/com/example/sping_portfolio/minilabs/arithmeticsub/subRecurse.class
+/target/classes/com/example/sping_portfolio/minilabs/arithmeticsub/subStream.class
+/target/classes/com/example/sping_portfolio/minilabs/arithmeticsub/subWhile.class
