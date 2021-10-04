@@ -113,3 +113,7 @@
 /target/classes/com/example/sping_portfolio/minilabs/factorial/factRecurse.class
 /target/classes/com/example/sping_portfolio/minilabs/factorial/factWhile.class
 /target/classes/com/example/sping_portfolio/minilabs/factorial/parentFactorial.class
+/target/classes/com/example/sping_portfolio/minilabs/geometric/geoController.class
+/target/classes/com/example/sping_portfolio/minilabs/geometric/geoFor.class
+/target/classes/com/example/sping_portfolio/minilabs/geometric/geoWhile.class
+/target/classes/com/example/sping_portfolio/minilabs/geometric/parentGeo.class
