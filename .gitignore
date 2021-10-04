@@ -108,3 +108,8 @@
 /target/classes/com/example/sping_portfolio/minilabs/arithmeticTwo/arithStream.class
 /target/classes/com/example/sping_portfolio/minilabs/arithmeticTwo/arithWhile.class
 /target/classes/com/example/sping_portfolio/minilabs/arithmeticTwo/parentArithmetic.class
+/target/classes/com/example/sping_portfolio/minilabs/factorial/factFor.class
+/target/classes/com/example/sping_portfolio/minilabs/factorial/factorialController.class
+/target/classes/com/example/sping_portfolio/minilabs/factorial/factRecurse.class
+/target/classes/com/example/sping_portfolio/minilabs/factorial/factWhile.class
+/target/classes/com/example/sping_portfolio/minilabs/factorial/parentFactorial.class
