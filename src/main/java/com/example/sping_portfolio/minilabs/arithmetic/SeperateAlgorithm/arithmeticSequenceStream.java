@@ -27,6 +27,7 @@ public class arithmeticSequenceStream extends arithmeticSequenceMain {
                 .forEach(f -> super.setData(f[0]) );
     }
 
+
     /*
     Class method "main" with purpose of testing FibStream
      */

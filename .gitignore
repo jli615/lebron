@@ -95,3 +95,10 @@
 /target/classes/com/example/sping_portfolio/controllers/Stats.class
 /target/classes/com/example/sping_portfolio/minilabs/arithmeticSequence.class
 /target/classes/templates/algorithms.html
+/target/classes/com/example/sping_portfolio/minilabs/arithmetic/SeperateAlgorithm/arithmeticSequenceRecursion.class
+/target/classes/com/example/sping_portfolio/minilabs/arithmetic/arithmeticSequence.class
+/target/classes/com/example/sping_portfolio/minilabs/arithmetic/SeperateAlgorithm/arithmeticSequenceFor.class
+/target/classes/com/example/sping_portfolio/minilabs/arithmetic/SeperateAlgorithm/arithmeticSequenceMain.class
+/target/classes/com/example/sping_portfolio/minilabs/arithmetic/SeperateAlgorithm/arithmeticSequenceStream.class
+/target/classes/com/example/sping_portfolio/minilabs/arithmetic/SeperateAlgorithm/arithmeticSequenceWhile.class
+/target/classes/com/example/sping_portfolio/minilabs/consoleUI/consoleMethods.class
