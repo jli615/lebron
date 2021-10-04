@@ -14,7 +14,8 @@ public static void main(String[] args)
     parentArithmetic arith2 = new arithRecurse();
     parentArithmetic arith3 = new arithStream();
     parentArithmetic arith4 = new arithWhile();
-    parentArithmetic.forr = true;
+    parentArithmetic.forr = false;
+    parentArithmetic.recurse = true;
     if (parentArithmetic.forr == true)
     {
         arith1.arithmeticMethodone();

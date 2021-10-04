@@ -19,10 +19,12 @@ public class arithWhile extends parentArithmetic{
     public Duration arithmeticMethodtwo()
     {
         Instant start = Instant.now();
-        for(rotations=iter;rotations > 0; rotations--)
+        int iterations = 5;
+        while(iterations > 0)
         {
             sran.add(k+5);
             k+=5;
+            iterations--;
         }
         Instant end = Instant.now();
         timeElapsed = Duration.between(start, end);
