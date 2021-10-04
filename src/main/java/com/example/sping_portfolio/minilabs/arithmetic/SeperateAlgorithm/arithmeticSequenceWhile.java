@@ -28,6 +28,10 @@ public class arithmeticSequenceWhile extends arithmeticSequenceMain {
         super.setData(f[0]);
         // observe this syntax and function, many think of recursion as another way to do iteration
         initRecurse(--limit, new long[]{f[1], f[0] + f[1]});
+        while (limit-- > 0) {
+            super.setData(f[0]);
+            f = new long[]{f[1], f[0] + 5};
+        }
     }
 
     /*
