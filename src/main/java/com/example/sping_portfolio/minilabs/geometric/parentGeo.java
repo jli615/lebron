@@ -20,7 +20,7 @@ public abstract class parentGeo {
     public abstract ArrayList<Integer> geometricMethodone();
     //public abstract Duration geometricMethodtwo();
     public void print() {
-        System.out.println("Geometric List = " + art);
+        System.out.println("Geometric List(n1 is 2, d is 2) = " + art);
         //System.out.println("Process took " + timeElapsed);
     }
 }
