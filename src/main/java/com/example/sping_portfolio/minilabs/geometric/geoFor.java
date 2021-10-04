@@ -6,14 +6,13 @@ import java.time.Instant;
 import java.util.ArrayList;
 
 public class geoFor extends parentGeo{
-    public ArrayList<Integer> geometricMethodone()
+    public Integer geometric()
     {
-        for(rotations=iter;rotations > 0; rotations--)
+        for(rotations=7;rotations > 0; rotations--)
         {
-            art.add(z*2);
             z*=2;
         }
-        return (art);
+        return (z);
     }
     /*public Duration geometricMethodtwo()
     {

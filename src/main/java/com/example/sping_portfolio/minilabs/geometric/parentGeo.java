@@ -15,12 +15,12 @@ public abstract class parentGeo {
     //static boolean stream=false;
     //static boolean while=false;
     //static boolean recurse=false;
-    ArrayList<Integer> art = new ArrayList<Integer>();
+    //ArrayList<Integer> art = new ArrayList<Integer>();
     //ArrayList<Integer> sran = new ArrayList<Integer>();
-    public abstract ArrayList<Integer> geometricMethodone();
+    public abstract Integer geometric();
     //public abstract Duration geometricMethodtwo();
     public void print() {
-        System.out.println("Geometric List(n1 is 2, d is 2) = " + art);
+        System.out.println("Geometric Term = " + z);
         //System.out.println("Process took " + timeElapsed);
     }
 }
