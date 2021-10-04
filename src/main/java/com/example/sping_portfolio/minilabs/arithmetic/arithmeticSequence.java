@@ -41,7 +41,7 @@ public class arithmeticSequence {
         int nth = 20; //!!!make dynamic using consoleUI inputInt!!! 92 is max for long
 
         List<arithmeticSequenceMain> arith = new arithmeticSequence().arithmet(nth);
-        for (arithmeticSequenceMain Arithmetics : arith)
-            Arithmetics.print();  //Console output fibonacci results
+        for (arithmeticSequenceMain arith1 : arith)
+            arith1.print();  //Console output fibonacci results
     }
 }
