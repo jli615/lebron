@@ -15,7 +15,9 @@ public abstract class parentArithmetic
     static boolean whilee=false;
     static boolean recurse=false;
     ArrayList<Integer> art = new ArrayList<Integer>();
+    ArrayList<Integer> time = new ArrayList<Integer>();
     int x = 0;
+    int z = 0;
     public abstract ArrayList<Integer> arithmeticMethodone();
     public abstract Duration arithmeticMethodtwo();
     public void print() {

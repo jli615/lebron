@@ -23,8 +23,9 @@ public class arithFor extends parentArithmetic
         Instant start = Instant.now();
         for(rotations=5;rotations > 0; rotations--)
         {
-            art.add(x+5);
-            x+=5;
+
+            time.add(z+5);
+            z+=5;
         }
         Instant end = Instant.now();
         timeElapsed = Duration.between(start, end);

@@ -7,7 +7,6 @@ import java.util.ArrayList;
 public class arithRecurse extends parentArithmetic {
     public ArrayList<Integer> arithmeticMethodone()
     {
-
         for(rotations=5;rotations > 0; rotations--)
         {
             art.add(x+5);
