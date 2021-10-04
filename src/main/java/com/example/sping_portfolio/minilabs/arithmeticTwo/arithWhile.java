@@ -22,8 +22,8 @@ public class arithWhile extends parentArithmetic{
         int iterations = 5;
         while(iterations > 0)
         {
-            art.add(x+5);
-            x+=5;
+            time.add(z+5);
+            z+=5;
             iterations--;
         }
         Instant end = Instant.now();
