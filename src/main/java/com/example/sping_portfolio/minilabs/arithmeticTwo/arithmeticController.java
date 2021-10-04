@@ -10,6 +10,7 @@ public static void main(String[] args)
     parentArithmetic arith3 = new arithStream();
     parentArithmetic arith4 = new arithWhile();
     parentArithmetic.forr = true;
+    parentArithmetic.whilee = true;
     if (parentArithmetic.forr == true)
     {
         arith1.arithmeticMethod();
