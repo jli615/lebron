@@ -11,7 +11,7 @@ public class factFor extends parentFactorial
 {
     public Integer factorial()
     {
-        for(rotations=iter;rotations > 0; rotations--)
+        for(rotations=6;rotations > 0; rotations--)
         {
             x = x * rotations;
         }

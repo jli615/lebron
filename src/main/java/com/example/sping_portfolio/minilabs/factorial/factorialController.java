@@ -9,13 +9,15 @@ import java.util.Scanner;
 
 public class factorialController
 {
+
+
     public static void main(String[] args)
     {
-        Scanner input = new Scanner(System.in);
-        System.out.println("Which factorial?");
-        String iterations = input.nextLine();
-        int y = Integer.parseInt(iterations);
-        parentFactorial.iter=y;
+        //Scanner input = new Scanner(System.in);
+        //System.out.println("Which factorial?");
+        //String iterations = input.nextLine();
+        //int y = Integer.parseInt(iterations);
+        //parentFactorial.iter=y;
         parentFactorial fact1 = new factFor();
         parentFactorial fact2 = new factWhile();
         parentFactorial fact3 = new factRecurse();

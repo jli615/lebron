@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class factRecurse extends parentFactorial{
     public Integer factorial()
     {
-        return (recurse(iter));
+        return (recurse(5));
     }
     public Integer recurse(int iter1) {
         int iterations = iter1;

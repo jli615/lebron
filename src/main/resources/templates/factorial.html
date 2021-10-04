@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<head><div layout:fragment="metadata" th:remove="tag">
+    <title>Factorial</title>
+</div></head>
+
+<body><div layout:fragment="content" th:remove="tag">
+    <!-- Start of body content specific to page -->
+
+        <!-- Start of body content specific to page -->
+        <div id="spring_intro" class="articles" style="margin: 30px">
+            <b>MINI LAB</b>
+            <div>
+                <p>Factorial with a For Loop (6!): <span th:text="${forAnswer}">1</span></p>
+            </div>
+            <div>
+                <p>
+                    Factorial with a While Loop (7!): <span th:text="${whileAnswer}">1</span>
+                </p>
+            </div>
+            <div>
+                <p>Factorial with Recursion (5!): <span th:text="${recurseAnswer}">1</span></p>
+            </div>
+        </div>
+        <!-- End of body content specific to page -->
+
+    <!-- End of body content specific to page -->
+</div></body>
+
+</html>

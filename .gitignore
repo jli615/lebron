@@ -117,3 +117,5 @@
 /target/classes/com/example/sping_portfolio/minilabs/geometric/geoFor.class
 /target/classes/com/example/sping_portfolio/minilabs/geometric/geoWhile.class
 /target/classes/com/example/sping_portfolio/minilabs/geometric/parentGeo.class
+/target/classes/templates/factorial.html
+/target/classes/com/example/sping_portfolio/controllers/factorialPage.class
