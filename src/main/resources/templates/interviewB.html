@@ -1,10 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
 
-</body>
+<head><div layout:fragment="metadata" th:remove="tag">
+    <title>Basketball Interviews</title>
+</div></head>
+
+<body><div layout:fragment="content" th:remove="tag">
+    <!-- Start of body content specific to page -->
+    <div id="spring_intro" class="articles" style="margin: 30px;">
+        <h1 style="font-family:'Courier New'"><strong><center></center></strong></h1>
+    </div>
+    <center><h3 style="font-family:verdana"> Down below is a link to an interview with Del Norte Basketball's big time athletes! Enjoy!
+    </h3></center>
+
+    <head><div layout:fragment="metadata" th:remove="tag">
+        <title>Link to interview</title>
+    </div></head>
+
+
+    <!-- Start of body content specific to page -->
+    <div id="spring_intro" class="articles" style="margin: 30px;">
+        <h1><strong><center></center></strong></h1>
+    </div>
+    <center><iframe width="1000" height="800" src="<iframe width=https://youtu.be/RLzIo5BRdDk </iframe>">
+    </iframe></center>
+
+    <!-- End of body content specific to page -->
+</div></body>
+
 </html>
