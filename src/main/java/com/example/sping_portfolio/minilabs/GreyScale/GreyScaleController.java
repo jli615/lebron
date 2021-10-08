@@ -24,7 +24,7 @@ public class GreyScaleController {
         public void main(String[] args)
         {
             String file0 = "/images/lebron.png";
-            GrayScaleMain.lix.add(new ImageInfo(file0, file0, 12);
+            GrayScaleMain.lix.add(new ImageInfo(file0, file0, 12));
             GrayScaleMain.lix.get(0).read_image();
             String file1 = "/images/kyrie.png";
             GrayScaleMain.lix.add(new ImageInfo(file1, file1, 12));
@@ -44,6 +44,7 @@ public class GreyScaleController {
             String file6 = "/images/harden.png";
             GrayScaleMain.lix.add(new ImageInfo(file6, file6, 12));
             GrayScaleMain.lix.get(6).read_image();
+
         }
     }
 }
