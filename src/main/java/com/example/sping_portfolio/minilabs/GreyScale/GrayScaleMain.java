@@ -17,6 +17,7 @@ public class GrayScaleMain
     boolean Greyscale;
     public static ArrayList<ImageInfo> lix = new ArrayList<>();
     public static ArrayList<ImageInfo> li = new ArrayList<>();
+    public static ArrayList<ImageInfo> lit = new ArrayList<>();
     public ArrayList<ImageInfo> GreyScaleMethod()
     {
         if(Greyscale == true)
@@ -26,11 +27,14 @@ public class GrayScaleMain
                 li.add(lix.get(x));
                 li.get(x).grayscale();
             }
-            return li;
+            lit=li;
+            return lit;
         }
         else
         {
-            return lix;
+            lit=li;
+            return lit;
         }
+
     }
 }

@@ -44,7 +44,8 @@ public class GreyScaleController {
             String file6 = "/images/harden.png";
             GrayScaleMain.lix.add(new ImageInfo(file6, file6, 12));
             GrayScaleMain.lix.get(6).read_image();
-
+            GrayScaleMain newt = new GrayScaleMain();
+            newt.GreyScaleMethod();
         }
     }
 }
