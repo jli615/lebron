@@ -12,12 +12,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.io.IOException;
 
 
-public abstract class GrayScaleMain
+public class GrayScaleMain
 {
     boolean Greyscale;
-    ArrayList<ImageInfo> lix = new ArrayList<>();
-
-
-
-    public abstract ArrayList<ImageInfo> GreyScaleMethod();
+    public static ArrayList<ImageInfo> lix = new ArrayList<>();
+    public ArrayList<ImageInfo> GreyScaleMethod()
+    {
+        return lix;
+    }
 }

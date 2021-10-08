@@ -21,30 +21,29 @@ public class GreyScaleController {
             model.addAttribute("GreyScale", GreyScale);   // MODEL is passed to html
             return "GreyScaleController";                     // returns HTML VIEW (greeting)
         }
-        public static void main(String[] args)
+        public void main(String[] args)
         {
-            ArrayList<ImageInfo> lix = new ArrayList<>();
             String file0 = "/images/lebron.png";
-            lix.add(new ImageInfo(file0, web_server+file0, 12));
-            lix.get(0).read_image();
+            GrayScaleMain.lix.add(new ImageInfo(file0, file0, 12);
+            GrayScaleMain.lix.get(0).read_image();
             String file1 = "/images/kyrie.png";
-            lix.add(new ImageInfo(file1, web_server+file1, 12));
-            lix.get(0).read_image();
+            GrayScaleMain.lix.add(new ImageInfo(file1, file1, 12));
+            GrayScaleMain.lix.get(1).read_image();
             String file2 = "/images/akumpo.png";
-            lix.add(new ImageInfo(file2, web_server+file2, 12));
-            lix.get(0).read_image();
+            GrayScaleMain.lix.add(new ImageInfo(file2, file2, 12));
+            GrayScaleMain.lix.get(2).read_image();
             String file3 = "/images/chef.png";
-            lix.add(new ImageInfo(file3, web_server+file3, 12));
-            lix.get(0).read_image();
+            GrayScaleMain.lix.add(new ImageInfo(file3, file3, 12));
+            GrayScaleMain.lix.get(3).read_image();
             String file4 = "/images/cp3.png";
-            lix.add(new ImageInfo(file4, web_server+file4, 12));
-            lix.get(0).read_image();
+            GrayScaleMain.lix.add(new ImageInfo(file4, file4, 12));
+            GrayScaleMain.lix.get(4).read_image();
             String file5 = "/images/dame.png";
-            lix.add(new ImageInfo(file5, web_server+file5, 12));
-            lix.get(0).read_image();
+            GrayScaleMain.lix.add(new ImageInfo(file5, file5, 12));
+            GrayScaleMain.lix.get(5).read_image();
             String file6 = "/images/harden.png";
-            lix.add(new ImageInfo(file6, web_server+file6, 12));
-            lix.get(0).read_image();
+            GrayScaleMain.lix.add(new ImageInfo(file6, file6, 12));
+            GrayScaleMain.lix.get(6).read_image();
         }
     }
 }
