@@ -1,4 +1,4 @@
-package com.example.sping_portfolio.minilabs.GreyScale;
+/*package com.example.sping_portfolio.minilabs.GreyScale;
 import com.example.sping_portfolio.controllers.ImageInfo;
 import com.example.sping_portfolio.minilabs.factorial.factFor;
 import com.example.sping_portfolio.minilabs.factorial.factRecurse;
@@ -62,3 +62,4 @@ public class GreyScaleController {
         }
     }
 }
+*/
