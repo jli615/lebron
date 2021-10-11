@@ -27,7 +27,8 @@
         <tbody>
         <tr th:each="ii: ${lii}">
           <td>
-            <div th:text="${ii.getFile()}">File name</div>
+            <!-- <div th:text="${ii.getFile()}">File name</div> -->
+
             <div th:text="'(' + ${ii.getHeight()} + ',' + ${ii.getWidth()} + ')'">Height,Width</div>
           </td>
           <td>

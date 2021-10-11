@@ -24,22 +24,35 @@ public class grayscale {
         String web_server = "http://localhost:8080/";
         //String web_server = "https://csa.nighthawkcodingsociety.com";
         List<ImageInfo> lii = new ArrayList<>();
+        List<ImageInfo> liig = new ArrayList<>();
+        boolean grayscale = true;
+        if (grayscale == false) {
 
-        String file0 = "/images/lebron.png";
-        lii.add(new ImageInfo(file0, web_server+file0, 12));
-        lii.get(0).read_image();
+            String file0 = "/images/lebron.png";
+            lii.add(new ImageInfo(file0, web_server + file0, 12));
+            lii.get(0).read_image();
 
-        String file1 = "/images/lebron.png";
-        lii.add(new ImageInfo(file1, web_server+file1, 2));
-        lii.get(1).read_image();
+            String file1 = "/images/lebron.png";
+            lii.add(new ImageInfo(file1, web_server + file1, 2));
+            lii.get(1).read_image();
 
-        String file2 = "/images/lebron.png";
-        lii.add(new ImageInfo(file2, web_server+file2, 7));
-        lii.get(2).read_image();
+            String file2 = "/images/lebron.png";
+            lii.add(new ImageInfo(file2, web_server + file2, 7));
+            lii.get(2).read_image();
+
+        } else {
+            String file0 = "/images/lebron.png";
+            liig.add(new ImageInfo(file0, web_server+file0, 12));
+            String str0 = liig.get(0).grayscale();
+            lii.add(new ImageInfo(str0, web_server+file0, 12));
+            lii.get(0).read_image();
+        }
 
         model.addAttribute("lii", lii);
+        model.addAttribute("grayscale", grayscale);
         return "image";
     }
+    /*
     @GetMapping("/image/grayscale")
     public String image_grayscale(Model model) {
         String web_server = "http://localhost:8080/";
@@ -52,6 +65,8 @@ public class grayscale {
 //        String str = lii.get(0).grayscale();
         model.addAttribute("str", str);
         return "image_grayscale";
+
+     */
     }
 
 }
