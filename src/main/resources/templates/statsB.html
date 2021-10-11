@@ -5,7 +5,7 @@
       layout:decorate="~{layout}" lang="en">
 
 <head><div layout:fragment="metadata" th:remove="tag">
-    <title>Baseball Stats</title>
+    <title>Basketball Stats</title>
 </div></head>
 
 <!-- layout::fragment="content" is heart of ThymeLeaf layout -->
@@ -22,19 +22,35 @@
     <table class="table table-dark">
         <tr class="bg-info">
             <th>Name</th>
-            <th>Age</th>
-            <th>gamesPlayed</th>
-            <th>pointsScored</th>
-            <th>Number</th>
+            <th>Pointspergame</th>
+            <th>Assistspergame</th>
+            <th>Reboundspergame</th>
+            <th>Careerhigh</th>
         </tr>
         <tbody id="myTable">
         </tbody>
     </table>
     <script>
         var myArray = [
-            {name:'Benji', age: 17, gamesPlayed: 15, pointsScored: 31, Number: 17},
-            {name:'Nico', age: 19, gamesPlayed: 13, pointsScored: 27, Number: 44},
-            {name:'Jackson', age: 16, gamesPlayed: 16, pointsScored: 22, Number: 19},
+            {name:'Benjie Nudo', Pointspergame: 14, Assistspergame: 4, Reboundspergame: 4, Careerhigh: 50},
+            {name:'Ryan Moghaddas', Pointspergame: 10, Assistspergame: 6, Reboundspergame: 5, Careerhigh: 100},
+            {name:'Nico Boom', Pointspergame: 14, Assistspergame: 3, Reboundspergame: 6, Careerhigh: 32},
+            {name:'Jackson Cottle', Pointspergame: 6, Assistspergame: 2, Reboundspergame: 2, Careerhigh: 24},
+            {name:'Jace Runge', Pointspergame: 5, Assistspergame: 1, Reboundspergame: 4, Careerhigh: 20},
+            {name:'Harry Li', Pointspergame: 3, Assistspergame: 0.4, Reboundspergame: 5, Careerhigh: 14},
+            {name:'Isaiah Dinh', Pointspergame: 2, Assistspergame: 0.2, Reboundspergame: 0.2, Careerhigh: 17},
+            {name:'Ben lee', Pointspergame: 12, Assistspergame: 3, Reboundspergame: 4, Careerhigh: 20},
+            {name:'Ben Goldfarb', Pointspergame: 1, Assistspergame: 0.1, Reboundspergame: 4, Careerhigh: 14},
+            {name:'CJ Badillo', Pointspergame: 7, Assistspergame: 2, Reboundspergame: 1, Careerhigh: 17},
+            {name:'Noah Trepanier', Pointspergame: 1, Assistspergame: 1, Reboundspergame: 3, Careerhigh: 10},
+            {name:'Noah Ahooja', Pointspergame: 4, Assistspergame: 2, Reboundspergame: 2, Careerhigh: 9},
+            {name:'Nick Gee', Pointspergame: 5, Assistspergame: 1, Reboundspergame: 1, Careerhigh: 8},
+            {name:'Jack Williams', Pointspergame: 9, Assistspergame: 4, Reboundspergame: 7, Careerhigh: 22},
+            {name:'Ryan Luo', Pointspergame: 13, Assistspergame: 7, Reboundspergame: 5, Careerhigh: 38},
+            {name:'Nathan Lee', Pointspergame: 2, Assistspergame: 1, Reboundspergame: 0.1, Careerhigh: 9},
+            {name:'Jack Leininger', Pointspergame: 4, Assistspergame: 2, Reboundspergame: 0.4, Careerhigh: 10},
+
+
         ]
 
         buildTable(myArray)
@@ -44,10 +60,10 @@
             for (var i = 0;i < data.length; i++) {
                 var row = `<tr>
                 <td>${data[i].name}</td>
-                <td>${data[i].age}</td>
-                <td>${data[i].gamesPlayed}</td>
-                <td>${data[i].pointsScored}</td>
-                <td>${data[i].Number}</td>
+                <td>${data[i].Pointspergame}</td>
+                <td>${data[i].Assistspergame}</td>
+                <td>${data[i].Reboundspergame}</td>
+                <td>${data[i].Careerhigh}</td>
             </tr>`
                 table.innerHTML += row
             }
