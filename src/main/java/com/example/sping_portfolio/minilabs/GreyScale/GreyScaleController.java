@@ -1,5 +1,8 @@
 package com.example.sping_portfolio.minilabs.GreyScale;
 import com.example.sping_portfolio.controllers.ImageInfo;
+import com.example.sping_portfolio.minilabs.factorial.factFor;
+import com.example.sping_portfolio.minilabs.factorial.factRecurse;
+import com.example.sping_portfolio.minilabs.factorial.factWhile;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -44,8 +47,18 @@ public class GreyScaleController {
             String file6 = "/images/harden.png";
             GrayScaleMain.lix.add(new ImageInfo(file6, file6, 12));
             GrayScaleMain.lix.get(6).read_image();
+
+        }
+
+        public String GreyScaleController (Model model) {
+
             GrayScaleMain newt = new GrayScaleMain();
-            newt.GreyScaleMethod();
+            ArrayList<ImageInfo> lit = new ArrayList<>();
+            lit = newt.GreyScaleMethod();
+
+
+            model.addAttribute("imageArray", lit);
+            return "factorial"; // returns HTML VIEW (greeting)
         }
     }
 }
