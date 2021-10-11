@@ -18,15 +18,18 @@ import java.util.List;
 
 @Controller
 public class grayscale {
+    boolean toggle = true;
                    // returns HTML VIEW (greeting)
     @GetMapping("/image")
-    public String image(Model model)  {
+    public String image(Model model)
+    {
+        if (toggle) toggle=false; else toggle=true;
         String web_server = "http://localhost:8080/";
         //String web_server = "https://csa.nighthawkcodingsociety.com";
         List<ImageInfo> lii = new ArrayList<>();
         List<ImageInfo> liig = new ArrayList<>();
-        boolean grayscale = true;
-        if (grayscale == false) {
+        //boolean grayscale = true;
+        if (toggle == false) {
 
             String file0 = "/images/lebron.png";
             lii.add(new ImageInfo(file0, web_server + file0, 12));
@@ -49,7 +52,6 @@ public class grayscale {
         }
 
         model.addAttribute("lii", lii);
-        model.addAttribute("grayscale", grayscale);
         return "image";
     }
     /*
@@ -69,4 +71,4 @@ public class grayscale {
      */
     }
 
-}
+
