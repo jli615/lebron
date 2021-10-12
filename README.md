@@ -13,7 +13,7 @@
 [Review Ticket](https://github.com/jli615/lebroncs/issues/37)
 
 ### Runtime Video:
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/jJutyX7YI-k&ab_channel=RyanMoghaddas/0.jpg)](http://www.youtube.com/watch?v=jJutyX7YI-k&ab_channel=RyanMoghaddas "Video Title")
+https://youtu.be/jJutyX7YI-k
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
