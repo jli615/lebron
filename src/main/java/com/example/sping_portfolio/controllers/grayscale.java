@@ -73,13 +73,13 @@ public class grayscale {
 
 
         } else {
-            String file0 = "/images/zach.png";
+            String file0 = "/images/lebron.png";
             liig.add(new ImageInfo(file0, web_server+file0, 1));
             String str0 = liig.get(0).grayscale();
             lii.add(new ImageInfo(str0, web_server+file0, 1));
             lii.get(0).read_image();
 
-            String file1 = "/images/lebron.png";
+            String file1 = "/images/zach.png";
             liig.add(new ImageInfo(file1, web_server+file1, 1));
             String str1 = liig.get(1).grayscale();
             lii.add(new ImageInfo(str1, web_server+file1, 1));
