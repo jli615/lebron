@@ -13,10 +13,10 @@
 <body>
 <div layout:fragment="content" th:remove="tag">
   <div class="container">
-    <h1 class="text-center">RGB values within an Image</h1>
+    <h1 style="color:black" class="text-center">RGB values within an Image</h1>
     <form action="/image" method="GET" id="image">
       <div>
-        <label style="color:white">Switch between grey and color images/data!</label>
+        <label style="color:black">Switch between grey and color images/data!</label>
         <button>toggle</button>
       </div>
     </form>
@@ -54,7 +54,7 @@
                 </thead>
                 <tbody>
                 <span th:each="row: ${#numbers.sequence(0, ii.getScaled_height()-1)}">
-                                        <tr th:each="col: ${#numbers.sequence(0, ii.getScaled_width()-1)}">
+                                        <tr th:each="col: ${#numbers.sequence(0, 0)}">
                                             <td th:text="${ii.getScaled_height(row)}">row</td>
                                             <td th:text="${ii.getScaled_width(col)}">column</td>
                                             <td th:text="${ii.getRGB(row,col)}">cell</td>
