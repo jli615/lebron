@@ -53,12 +53,12 @@ public class GreyScaleController {
         public String GreyScaleController (Model model) {
 
             GrayScaleMain newt = new GrayScaleMain();
-            ArrayList<ImageInfo> lit = new ArrayList<>();
+            ArrayList<ImageInfo> lit = new ArrayList();
             lit = newt.GreyScaleMethod();
 
 
             model.addAttribute("imageArray", lit);
-            return "factorial"; // returns HTML VIEW (greeting)
+            return "GreyScaleController"; // returns HTML VIEW (greeting)
         }
     }
 }

@@ -14,7 +14,7 @@ public class GrayScaleMain
     {
         if(Greyscale == true)
         {
-            for(int x =0; x <= 10; x++)
+            for(int x =0; x < 7; x++)
             {
                 li.add(lix.get(x));
                 li.get(x).grayscale();

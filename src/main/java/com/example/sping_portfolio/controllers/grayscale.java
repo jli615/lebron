@@ -44,43 +44,39 @@ public class grayscale {
             lii.get(2).read_image();
 
             String file3 = "/images/harden.png";
-            lii.add(new ImageInfo(file3, web_server + file3, 7));
+            lii.add(new ImageInfo(file3, web_server + file3, 1));
             lii.get(3).read_image();
 
             String file4 = "/images/kobe.png";
-            lii.add(new ImageInfo(file4, web_server + file4, 7));
+            lii.add(new ImageInfo(file4, web_server + file4, 1));
             lii.get(4).read_image();
 
             String file5 = "/images/kyrie.png";
-            lii.add(new ImageInfo(file5, web_server + file5, 7));
+            lii.add(new ImageInfo(file5, web_server + file5, 1));
             lii.get(5).read_image();
 
             String file6 = "/images/meta.png";
-            lii.add(new ImageInfo(file6, web_server + file6, 7));
+            lii.add(new ImageInfo(file6, web_server + file6, 1));
             lii.get(6).read_image();
 
             String file7 = "/images/VC.png";
-            lii.add(new ImageInfo(file7, web_server + file7, 7));
+            lii.add(new ImageInfo(file7, web_server + file7, 1));
             lii.get(7).read_image();
 
-            String file8 = "/images/zoin.png";
-            lii.add(new ImageInfo(file8, web_server + file8, 7));
+            String file8 = "/images/zion.png";
+            lii.add(new ImageInfo(file8, web_server + file8, 1));
             lii.get(8).read_image();
 
-            String file9 = "/images/zo.png";
-            lii.add(new ImageInfo(file9, web_server + file9, 7));
+            String file9 = "/images/lebron james1 .png";
+            lii.add(new ImageInfo(file9, web_server + file9, 1));
             lii.get(9).read_image();
-
-            String file10 = "/images/lebron james1 .png";
-            lii.add(new ImageInfo(file10, web_server + file10, 7));
-            lii.get(10).read_image();
 
 
         } else {
             String file0 = "/images/lebron.png";
-            liig.add(new ImageInfo(file0, web_server+file0, 12));
+            liig.add(new ImageInfo(file0, web_server+file0, 1));
             String str0 = liig.get(0).grayscale();
-            lii.add(new ImageInfo(str0, web_server+file0, 12));
+            lii.add(new ImageInfo(str0, web_server+file0, 1));
             lii.get(0).read_image();
 
         }
