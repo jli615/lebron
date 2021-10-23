@@ -16,7 +16,7 @@
 | --- | --- | --- | --- | --- |
 | Ryan | [tasks](https://github.com/jli615/lebroncs/issues?q=assignee%3Aryanmgds+) | [scrum board](https://github.com/jli615/lebroncs/projects/1?card_filter_query=assignee%3Aryanmgds) | [commits](https://github.com/jli615/lebroncs/commits?author=ryanmgds) | [profile](https://github.com/ryanmgds) |
 | Rohan K | [tasks](https://github.com/jli615/lebroncs/issues?q=assignee%3Arohankoshy) | [scrumboard](https://github.com/jli615/lebroncs/projects/1?card_filter_query=assignee%3Arohankoshy#card-68534854) | [commits](https://github.com/jli615/lebroncs/commits?author=RohanKoshy) | [profile](https://github.com/RohanKoshy) |
-| Justin | [Video](https://drive.google.com/file/d/1DN5sP2STVwt7llVpu3okvUsDpf0zsgQD/view?usp=sharing) | [scrum board](https://github.com/jli615/lebroncs/projects/1?card_filter_query=assignee%3Ajli615) | [commits](https://github.com/jli615/lebroncs/commits?author=jli615) | [profile](https://github.com/jli615) |
+| Justin | [Video](https://drive.google.com/file/d/1DN5sP2STVwt7llVpu3okvUsDpf0zsgQD/view?usp=sharing) | [scrum board](https://github.com/jli615/lebroncs/projects/1?card_filter_query=assignee%3Ajli615) | [Review Ticket](https://github.com/jli615/lebroncs/issues/45) | [profile](https://github.com/jli615) |
 | Rohan N(macddmac) | [tasks](https://github.com/jli615/lebroncs/issues?q=assignee%3Amacddmac) | [scrum board](https://github.com/jli615/lebroncs/projects/1?card_filter_query=assignee%3Amacddmac) | [commits](https://github.com/jli615/lebroncs/commits?author=macddmac) | [profile](https://github.com/macddmac) |
 
 
