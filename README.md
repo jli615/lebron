@@ -11,12 +11,10 @@
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Week 7 Video and Review Ticket 
-### Link to Review Ticket:
-[Review Ticket](https://github.com/jli615/lebroncs/issues/37)
+# Individual Finals
 
-### Runtime Video:
-[Video](https://youtu.be/jJutyX7YI-k)
+### Justin's Video:
+[Video](https://drive.google.com/file/d/1DN5sP2STVwt7llVpu3okvUsDpf0zsgQD/view?usp=sharing)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
