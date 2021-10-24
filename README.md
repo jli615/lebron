@@ -11,7 +11,7 @@
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Individual Finals:
+### Individual Finals(part 1):
 | Name | Video | Score | Review Ticket | Profile |
 | --- | --- | --- | --- | --- |
 | Ryan | [tasks](https://github.com/jli615/lebroncs/issues?q=assignee%3Aryanmgds+) | [scrum board](https://github.com/jli615/lebroncs/projects/1?card_filter_query=assignee%3Aryanmgds) | [commits](https://github.com/jli615/lebroncs/commits?author=ryanmgds) | [profile](https://github.com/ryanmgds) |
