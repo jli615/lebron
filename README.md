@@ -16,7 +16,7 @@
 | --- | --- | --- | --- |
 | Ryan | [Video](https://github.com/jli615/lebroncs/issues?q=assignee%3Aryanmgds+) | PUT SCORE HERE | [Ticket](https://github.com/jli615/lebroncs/commits?author=ryanmgds) |
 | Rohan K | [Video](https://drive.google.com/file/d/16JvHKxiV3wkbgdZnABosz5bFQhlbk7MD/view) | PUT SCORE HERE | [Ticket](https://github.com/jli615/lebroncs/issues/47) |
-| Justin | [Video](https://drive.google.com/file/d/1DN5sP2STVwt7llVpu3okvUsDpf0zsgQD/view?usp=sharing) | PUT SCORE HERE | [Ticket](https://github.com/jli615/lebroncs/issues/45) |
+| Justin | [Video](https://drive.google.com/file/d/1DN5sP2STVwt7llVpu3okvUsDpf0zsgQD/view?usp=sharing) | 5.5/6 | [Ticket](https://github.com/jli615/lebroncs/issues/45) |
 | Rohan N(macddmac) | [Video](https://youtu.be/NK_8NJdSe2w) | PUT SCORE HERE | [Ticket](https://github.com/jli615/lebroncs/issues/46) |
 
 
