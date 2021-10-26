@@ -14,7 +14,7 @@
 ### Individual Finals(part 1):
 | Name | Video | Score | Review Ticket |
 | --- | --- | --- | --- |
-| Ryan | Video | NA | Ticket |
+| Ryan | [Video](https://youtu.be/f_sfqiaWI3c) | 5/6 | [Ticket]() |
 | Rohan K | [Video](https://drive.google.com/file/d/16JvHKxiV3wkbgdZnABosz5bFQhlbk7MD/view) | 5.5/6 | [Ticket](https://github.com/jli615/lebroncs/issues/47) |
 | Justin | [Video](https://drive.google.com/file/d/1DN5sP2STVwt7llVpu3okvUsDpf0zsgQD/view?usp=sharing) | 5.5/6 | [Ticket](https://github.com/jli615/lebroncs/issues/45) |
 | Rohan N(macddmac) | [Video](https://youtu.be/NK_8NJdSe2w) | 5.5/6 | [Ticket](https://github.com/jli615/lebroncs/issues/46) |
