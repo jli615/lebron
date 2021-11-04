@@ -11,7 +11,7 @@ public class subFor extends parentSub
 {
     public ArrayList<Integer> arithmeticMethodone()
     {
-        for(rotations=iter;rotations > 0; rotations--)
+        for(int x=iter;x > 0; x--)
         {
             art.add(z-5);
             z-=5;
