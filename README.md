@@ -11,6 +11,7 @@ The overall idea of our project is a Del Norte Sports Statistics page. Any user 
 ## Purpose
 Our purpose behind this website is that we wanted to create a platform where our Del Norte athletes could be honored for their outstanding athletic performance and achievement. This gives an opportunity for players to also present their statistics, in an easy manner, to their friends and family.
 
+## TimeBox
 ### Team Lebron: [Scrum Board](https://github.com/jli615/lebroncs/projects/1), [GitHub repo contributors](https://github.com/jli615/lebroncs/graphs/contributors)
 | Name | Tasks | Scrumboard | Commits | Profile |
 | --- | --- | --- | --- | --- |
