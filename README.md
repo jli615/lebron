@@ -34,10 +34,6 @@ Our purpose behind this website is that we wanted to create a platform where our
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# [Team and Scrum Master Planning by Wednesday link to ticket](https://github.com/jli615/lebroncs/issues/19)
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 ### [Link to Scrum Board](https://github.com/jli615/lebroncs/projects/1)
 Here you can find our plans in the backlog and what needs to be reviewed for grading in the review column. 
 
