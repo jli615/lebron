@@ -1,10 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<!-- This page is illustrative and contains ideas about HTML formatting -->
+<!DOCTYPE HTML>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
 
+<head><div layout:fragment="metadata" th:remove="tag">
+    <title>Soccer Schedule</title>
+</div></head>
+
+<!-- layout::fragment="content" is heart of ThymeLeaf layout -->
+<body  style="background: url(https://media.istockphoto.com/photos/basketball-ball-on-black-background-picture-id1202801765?b=1&k=20&m=1202801765&s=170667a&w=0&h=iXmtT1hFuL_7jm-O0YKbbFpTLa8Uq0UX-fhvyfh52uA=) no-repeat; background-size:100%"><div layout:fragment="content" th:remove="tag">
+    <!-- Start of body content specific to page -->
+    <div id="football" class="articles" style="margin: 30px;">
+        <h1 style="color:white"><strong><center>DNHS Soccer Schedule!</center></strong></h1>
+        <!-- End of body content specific to page -->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://stack.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="
+    sha384-ggCyR0iXCbMQv3Xipma34MB+dH/1fQ7*4/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <table class="table table-dark">
+        <tr class="bg-info">
+            <th>Date</th>
+            <th>Opponent</th>
+            <th>Type</th>
+            <th>W/L</th>
+            <th>Score</th>
+        </tr>
+        <tbody id="myTable">
+        </tbody>
+    </table>
+    <script>
+        var myArray = [
+            {name:'Wed, 3/31', Pointspergame: 'Canyon Crest Academy', Assistspergame: 'None-league' , Reboundspergame: 'W', Careerhigh: '3-0'},
+            {name:'Tue, 4/6', Pointspergame: 'Oceanside' , Assistspergame: 'Non-League', Reboundspergame: 'W', Careerhigh: '2-0'},
+            {name:'Tue, 4/13', Pointspergame: 'San Pasqual', Assistspergame: 'League', Reboundspergame: 'W', Careerhigh: '3-0'},
+            {name:'Thu, 4/15', Pointspergame: 'Poway', Assistspergame: 'League', Reboundspergame: 'W', Careerhigh: '2-0'},
+            {name:'Tue, 4/20', Pointspergame: 'San Marcos', Assistspergame: 'League', Reboundspergame: 'T', Careerhigh: '0-0'},
+            {name:'Thu, 4/22', Pointspergame: 'Rancho Bernardo', Assistspergame: 'League', Reboundspergame: 'L', Careerhigh: '3-2'},
+            {name:'Tue, 4/27', Pointspergame: 'Westview', Assistspergame: 'League', Reboundspergame: 'W', Careerhigh: '1-0'},
+            {name:'Thu, 4/29', Pointspergame: 'San Pasqual', Assistspergame: 'League', Reboundspergame: 'L', Careerhigh: '0-1'},
+            {name:'Tue, 5/4', Pointspergame: 'Poway', Assistspergame: 'League', Reboundspergame: 'T', Careerhigh: '1-1'},
+            {name:'Thu, 5/6', Pointspergame: 'San Marcos', Assistspergame: 'League', Reboundspergame: 'W', Careerhigh: '3-0'},
+            {name:'Tue, 5/11', Pointspergame: 'Rancho Bernardo', Assistspergame: 'League', Reboundspergame: 'W', Careerhigh: '5-0'},
+            {name:'Thu, 5/13', Pointspergame: 'Westview', Assistspergame: 'League', Reboundspergame: 'W', Careerhigh: '1-0'},
+            {name:'Wed, 5/19', Pointspergame: 'Westview', Assistspergame: 'Non-League', Reboundspergame: 'W', Careerhigh: '2-0'},
+            {name:'Tue, 5/25', Pointspergame: 'Cathedral Catholic', Assistspergame: 'Non-League', Reboundspergame: 'L', Careerhigh: '0-5'},
+            {name:'Thu, 5/27', Pointspergame: 'St. Augustine', Assistspergame: 'Playoff', Reboundspergame: 'L', Careerhigh: '1-2'},
+
+
+
+        ]
+
+        buildTable(myArray)
+
+        function buildTable(data){
+            var table = document.getElementById('myTable')
+            for (var i = 0;i < data.length; i++) {
+                var row = `<tr>
+                <td>${data[i].name}</td>
+                <td>${data[i].Pointspergame}</td>
+                <td>${data[i].Assistspergame}</td>
+                <td>${data[i].Reboundspergame}</td>
+                <td>${data[i].Careerhigh}</td>
+            </tr>`
+                table.innerHTML += row
+            }
+        }
+    </script>
+</div>
 </body>
 </html>
