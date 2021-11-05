@@ -223,3 +223,9 @@
 /target/classes/static/images/ryan.png
 /target/classes/com/example/sping_portfolio/controllers/SportsApi.class
 /target/classes/templates/sportsapi.html
+/target/classes/com/example/sping_portfolio/minilabs/permcomb.class
+/target/classes/com/example/sping_portfolio/controllers/schedule.class
+/target/classes/com/example/sping_portfolio/controllers/SoccerPreformance.class
+/target/classes/templates/SoccerScoring.html
+/target/classes/com/example/sping_portfolio/controllers/SuperUserSoccer.class
+/target/classes/templates/SuperUserSoccer.html

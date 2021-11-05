@@ -21,7 +21,7 @@
 
 <!-- <body> -->
 <div layout:fragment="content" th:remove="tag">
-    <div class="container">
+    <div class="container" style="background-color: pink">
 
         <div class="row justify-content-md-center">
             <h1 style="color: black"><strong>Soccer Player Profiles</strong></h1>
@@ -48,7 +48,26 @@
             </tr>
         </table>
 
-
+        <table class="table">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Nationality</th>
+                <th>Weight</th>
+                <th>Height</th>
+                <th>Photo(navigate link)</th>
+            </tr>
+            <!-- Usage of JSON object and Thymeleaf -->
+            <tr th:each="response : ${jo.response}">
+                <!--/*@thymesVar id="country_name" type="java"*/-->
+                <td th:text="${response.player.firstname}"></td>
+                <td th:text="${response.player.lastname}"></td>
+                <td th:text="${response.player.nationality}"></td>
+                <td th:text="${response.player.weight}"></td>
+                <td th:text="${response.player.height}"></td>
+                <td th:text="${response.player.photo}"></td>
+            </tr>
+        </table>
 
     </div>
 </div>
