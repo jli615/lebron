@@ -2,7 +2,7 @@
 Quick and easy access to your very own Del Norte basketball, soccer, baseball, and football statistics!
 
 # Usage
-Navigate [here](lebroncs.cf) to use the application. Once on website, you will be directed through the navigation bar, that will bring you to all available tabs containing statistics.
+Navigate [here](http://lebroncs.cf/) to use the application. Once on website, you will be directed through the navigation bar, that will bring you to all available tabs containing statistics.
 
 You can also run it on your local machine by cloning our project from github.
 
