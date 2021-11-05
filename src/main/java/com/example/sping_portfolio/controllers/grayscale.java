@@ -72,10 +72,6 @@ public class grayscale {
             lii.get(9).read_image();
 
 
-
-
-
-
         } else {
 
             String file0 = "/images/CJ.png";
@@ -101,8 +97,6 @@ public class grayscale {
             String str3 = liig.get(3).grayscale();
             lii.add(new ImageInfo(str3, web_server+file3, 1));
             lii.get(3).read_image();
-
-
 
         }
 

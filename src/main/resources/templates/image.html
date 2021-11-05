@@ -25,9 +25,8 @@
       <table class="table">
         <thead>
         <tr>
-          <th>Meta Data</th>
+          <th>Grade</th>
           <th>Image</th>
-          <th>Samples of Data</th>
         </tr>
         </thead>
         <tbody>
@@ -35,36 +34,10 @@
           <td>
             <!-- <div th:text="${ii.getFile()}">File name</div> -->
 
-            <div th:text="'(' + ${ii.getHeight()} + ',' + ${ii.getWidth()} + ')'">Height,Width</div>
+            <div>Junior/Senior</div>
           </td>
           <td>
             <img class="img-responsive py-3" th:src="@{${ii.getFile()}}" alt="" src="${ii.getFile()}" width=128 height="Auto">
-          </td>
-          <td>
-            <div class="overflow-auto" style="height: 256px">
-              <table class="table">
-                <thead>
-                <tr>
-                  <th>Ro</th>
-                  <th>Column</th>
-                  <th>RGB</th>
-                  <th>Hex Code</th>
-                  <th>Binary</th>
-                </tr>
-                </thead>
-                <tbody>
-                <span th:each="row: ${#numbers.sequence(0, ii.getScaled_height()-1)}">
-                                        <tr th:each="col: ${#numbers.sequence(0, 0)}">
-                                            <td th:text="${ii.getScaled_height(row)}">row</td>
-                                            <td th:text="${ii.getScaled_width(col)}">column</td>
-                                            <td th:text="${ii.getRGB(row,col)}">cell</td>
-                                            <td th:text="${ii.getHexCode(row,col)}">cell</td>
-                                            <td th:text="${ii.getBinary(row,col)}">cell</td>
-                                        </tr>
-                                    </span>
-                </tbody>
-              </table>
-            </div>
           </td>
         </tr>
         </tbody>
