@@ -1,14 +1,14 @@
 # Team Lebron Del Norte Sports Stats
 Quick and easy access to your very own Del Norte basketball, soccer, baseball, and football statistics!
 
-# Usage
+## Usage
 Navigate [here](http://lebroncs.cf/) to use the application. Once on website, you will be directed through the navigation bar, that will bring you to all available tabs containing statistics.
 
 You can also run it on your local machine by cloning our project from github.
 
-# Ideation
+## Ideation
 The overall idea of our project is a Del Norte Sports Statistics page. Any user can come view statistics/highlights/the schedule of their favorite Del Norte athlete.
-# Purpose
+## Purpose
 Our purpose behind this website is that we wanted to create a platform where our Del Norte athletes could be honored for their outstanding athletic performance and achievement. This gives an opportunity for players to also present their statistics, in an easy manner, to their friends and family.
 
 ### Team Lebron: [Scrum Board](https://github.com/jli615/lebroncs/projects/1), [GitHub repo contributors](https://github.com/jli615/lebroncs/graphs/contributors)
