@@ -1,4 +1,4 @@
-package com.example.sping_portfolio.controllers;
+/*package com.example.sping_portfolio.controllers;
 
 import org.json.simple.parser.ParseException;
 import org.springframework.stereotype.Controller;
@@ -40,11 +40,11 @@ public class SportsApi {
 
         //alternative #2: convert response.body() to JSON object
         Object obj = new JSONParser().parse(response.body());
-        JSONObject jo = (JSONObject) obj;
+        JSONObject jn = (JSONObject) obj;
 
         //pass stats to view
         model.addAttribute("map", map);
-        model.addAttribute("jo", jo);
+        model.addAttribute("jn", jn);
         //model.addAttribute("timezone", map.get("timezone")  ); //illustrative of map get
         //model.addAttribute("timezone", jo.get("timezone"));  //illustrative of jo get
 
@@ -52,3 +52,4 @@ public class SportsApi {
         return "sportsapi";
     }
 }
+*/
