@@ -1,3 +1,11 @@
+## N@tM + Reflections
+| Name | Images | Reflection |  |
+| --- | --- | --- | --- |
+| Ryan | [Images]() | [Reflection](https://docs.google.com/document/d/1JAoqj9YH7q6fAg8f7N6uuoyNvBxY9lL9buZDNXm82dU/edit?usp=sharing) |  
+| Rohan K | [Images]() | [Reflection]() |  
+| Justin | [Images]() | [Reflection]() |  
+| Rohan N(macddmac) | [Images]() | [Reflection]() |  
+
 # Team Lebron Del Norte Sports Stats
 Quick and easy access to your very own Del Norte basketball, soccer, baseball, and football statistics!
 
@@ -10,14 +18,7 @@ You can also run it on your local machine by cloning our project from github.
 The overall idea of our project is a Del Norte Sports Statistics page. Any user can come view statistics/highlights/the schedule of their favorite Del Norte athlete.
 ## Purpose
 Our purpose behind this website is that we wanted to create a platform where our Del Norte athletes could be honored for their outstanding athletic performance and achievement. This gives an opportunity for players to also present their statistics, in an easy manner, to their friends and family.
-## Timebox
-## N@tM + Reflections
-| Name | Images | Reflection |  |
-| --- | --- | --- | --- |
-| Ryan | [Images]() | [Reflection](https://docs.google.com/document/d/1JAoqj9YH7q6fAg8f7N6uuoyNvBxY9lL9buZDNXm82dU/edit?usp=sharing) |  
-| Rohan K | [Images]() | [Reflection]() |  
-| Justin | [Images]() | [Reflection]() |  
-| Rohan N(macddmac) | [Images]() | [Reflection]() |  
+ 
 
 ## TimeBox
 ### Team Lebron: [Scrum Board](https://github.com/jli615/lebroncs/projects/1), [GitHub repo contributors](https://github.com/jli615/lebroncs/graphs/contributors)
