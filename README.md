@@ -6,6 +6,10 @@
 | Justin | [Images]() | [Reflection](https://docs.google.com/document/d/16n71h34--MM2rAVfMUMXAoOumoElRtORBLAKxhKOgzc/edit?usp=sharing) |  
 | Rohan N(macddmac) | [Images]() | [Reflection]() |  
 
+## Images:
+![IMG_1396](https://user-images.githubusercontent.com/47732318/141159057-8bfed62f-1509-4f07-9910-54d838f0dd40.jpg)
+
+
 # Team Lebron Del Norte Sports Stats
 Quick and easy access to your very own Del Norte basketball, soccer, baseball, and football statistics!
 
