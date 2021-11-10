@@ -10,6 +10,14 @@ You can also run it on your local machine by cloning our project from github.
 The overall idea of our project is a Del Norte Sports Statistics page. Any user can come view statistics/highlights/the schedule of their favorite Del Norte athlete.
 ## Purpose
 Our purpose behind this website is that we wanted to create a platform where our Del Norte athletes could be honored for their outstanding athletic performance and achievement. This gives an opportunity for players to also present their statistics, in an easy manner, to their friends and family.
+## Timebox
+## N@tM + Reflections
+| Name | Images | Reflection |  |
+| --- | --- | --- | --- |
+| Ryan | [Video](https://youtu.be/f_sfqiaWI3c) | 5/6 | [Ticket](https://github.com/jli615/lebroncs/issues/48) |
+| Rohan K | [Video](https://drive.google.com/file/d/16JvHKxiV3wkbgdZnABosz5bFQhlbk7MD/view) | 5.5/6 | [Ticket](https://github.com/jli615/lebroncs/issues/47) |
+| Justin | [Video](https://drive.google.com/file/d/1DN5sP2STVwt7llVpu3okvUsDpf0zsgQD/view?usp=sharing) | 5.5/6 | [Ticket](https://github.com/jli615/lebroncs/issues/45) |
+| Rohan N(macddmac) | [Video](https://youtu.be/NK_8NJdSe2w) | 5.5/6 | [Ticket](https://github.com/jli615/lebroncs/issues/46) |
 
 ## TimeBox
 ### Team Lebron: [Scrum Board](https://github.com/jli615/lebroncs/projects/1), [GitHub repo contributors](https://github.com/jli615/lebroncs/graphs/contributors)
