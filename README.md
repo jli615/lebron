@@ -1,8 +1,7 @@
 ## N@tM + Reflections
 | Name | Images | Reflection | 
 | --- | --- | --- |
-| Ryan | [Images] (https://drive.google.com/file/d/16foyaI2OA4nYdCk_Qv5nHzWTkeP8owYw/view?usp=sharing)
-| [Reflection](https://docs.google.com/document/d/1JAoqj9YH7q6fAg8f7N6uuoyNvBxY9lL9buZDNXm82dU/edit?usp=sharing) |  
+| Ryan | [Images](https://drive.google.com/file/d/16foyaI2OA4nYdCk_Qv5nHzWTkeP8owYw/view?usp=sharing)| [Reflection](https://docs.google.com/document/d/1JAoqj9YH7q6fAg8f7N6uuoyNvBxY9lL9buZDNXm82dU/edit?usp=sharing) |  
 | Rohan K | [Images](https://drive.google.com/file/d/1ROBZWfrWRIHHfQNvxttEcF9IsSzHhB-O/view?usp=sharing) | [Reflection]() |  
 | Justin | [Images](https://drive.google.com/file/d/1TCP7tE9Rn3UkLihFphmmXfm115Qo1l1C/view?usp=sharing) | [Reflection](https://docs.google.com/document/d/16n71h34--MM2rAVfMUMXAoOumoElRtORBLAKxhKOgzc/edit?usp=sharing) |  
 | Rohan N(macddmac) | [Images]() | [Reflection]() |  
