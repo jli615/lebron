@@ -8,7 +8,8 @@
 
 ## Images:
 ![IMG_1396](https://user-images.githubusercontent.com/47732318/141159057-8bfed62f-1509-4f07-9910-54d838f0dd40.jpg)
-
+![IMG_1418](https://user-images.githubusercontent.com/47732318/141161181-9c99b6f2-28d4-4fb0-a427-82c1171709c6.jpg)
+![IMG_1401](https://user-images.githubusercontent.com/47732318/141161203-c644da78-2c96-4793-af23-509f732c8d38.jpg)
 
 # Team Lebron Del Norte Sports Stats
 Quick and easy access to your very own Del Norte basketball, soccer, baseball, and football statistics!
