@@ -4,7 +4,7 @@
 | Ryan | [Images](https://drive.google.com/file/d/16foyaI2OA4nYdCk_Qv5nHzWTkeP8owYw/view?usp=sharing)| [Reflection](https://docs.google.com/document/d/1JAoqj9YH7q6fAg8f7N6uuoyNvBxY9lL9buZDNXm82dU/edit?usp=sharing) |  
 | Rohan K | [Images](https://drive.google.com/file/d/1ROBZWfrWRIHHfQNvxttEcF9IsSzHhB-O/view?usp=sharing) | [Reflection](https://github.com/jli615/lebroncs/issues/51) |  
 | Justin | [Images](https://drive.google.com/file/d/1TCP7tE9Rn3UkLihFphmmXfm115Qo1l1C/view?usp=sharing) | [Reflection](https://docs.google.com/document/d/16n71h34--MM2rAVfMUMXAoOumoElRtORBLAKxhKOgzc/edit?usp=sharing) |  
-| Rohan N(macddmac) | [Images]() | [Reflection]() |  
+| Rohan N(macddmac) | [Images](https://github.com/jli615/lebroncs/issues/49) | [Reflection](https://github.com/jli615/lebroncs/issues/50) |  
 
 ## Images:
 ![IMG_1396](https://user-images.githubusercontent.com/47732318/141159057-8bfed62f-1509-4f07-9910-54d838f0dd40.jpg)
