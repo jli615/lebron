@@ -1,7 +1,7 @@
 ## N@tM + Reflections
 | Name | Images | Reflection |  |
 | --- | --- | --- | --- |
-| Ryan | [Images]![IMG_1396](https://user-images.githubusercontent.com/47732318/141159202-422bbdac-71c3-4800-bfd6-5a7d700eee81.jpg)
+| Ryan | [Images] (https://user-images.githubusercontent.com/47732318/141159202-422bbdac-71c3-4800-bfd6-5a7d700eee81.jpg)
 | [Reflection](https://docs.google.com/document/d/1JAoqj9YH7q6fAg8f7N6uuoyNvBxY9lL9buZDNXm82dU/edit?usp=sharing) |  
 | Rohan K | [Images](![IMG_1401](https://user-images.githubusercontent.com/47732318/141159258-462dddf8-4ada-4b8c-8c41-ec35557204ca.jpg)
 ) | [Reflection]() |  
