@@ -3,7 +3,7 @@
 | --- | --- | --- | --- |
 | Ryan | [Images]() | [Reflection](https://docs.google.com/document/d/1JAoqj9YH7q6fAg8f7N6uuoyNvBxY9lL9buZDNXm82dU/edit?usp=sharing) |  
 | Rohan K | [Images]() | [Reflection]() |  
-| Justin | [Images]() | [Reflection]() |  
+| Justin | [Images]() | [Reflection](https://docs.google.com/document/d/16n71h34--MM2rAVfMUMXAoOumoElRtORBLAKxhKOgzc/edit?usp=sharing) |  
 | Rohan N(macddmac) | [Images]() | [Reflection]() |  
 
 # Team Lebron Del Norte Sports Stats
