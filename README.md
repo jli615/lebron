@@ -3,7 +3,8 @@
 | --- | --- | --- | --- |
 | Ryan | [Images]() | [Reflection](https://docs.google.com/document/d/1JAoqj9YH7q6fAg8f7N6uuoyNvBxY9lL9buZDNXm82dU/edit?usp=sharing) |  
 | Rohan K | [Images]() | [Reflection]() |  
-| Justin | [Images]() | [Reflection](https://docs.google.com/document/d/16n71h34--MM2rAVfMUMXAoOumoElRtORBLAKxhKOgzc/edit?usp=sharing) |  
+| Justin | [Images](![IMG_1396](https://user-images.githubusercontent.com/47732318/141159113-a5e9d0f2-f412-4d05-b755-d8a34228f90d.jpg)
+) | [Reflection](https://docs.google.com/document/d/16n71h34--MM2rAVfMUMXAoOumoElRtORBLAKxhKOgzc/edit?usp=sharing) |  
 | Rohan N(macddmac) | [Images]() | [Reflection]() |  
 
 ## Images:
