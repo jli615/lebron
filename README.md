@@ -6,7 +6,6 @@
 | Rohan K | [Images](![IMG_1401](https://user-images.githubusercontent.com/47732318/141159258-462dddf8-4ada-4b8c-8c41-ec35557204ca.jpg)
 ) | [Reflection]() |  
 | Justin | [Images](![IMG_1418](https://user-images.githubusercontent.com/47732318/141159320-07b7e946-58b0-418f-9352-4d44ef0ce022.jpg)
-)
 ) | [Reflection](https://docs.google.com/document/d/16n71h34--MM2rAVfMUMXAoOumoElRtORBLAKxhKOgzc/edit?usp=sharing) |  
 | Rohan N(macddmac) | [Images]() | [Reflection]() |  
 
